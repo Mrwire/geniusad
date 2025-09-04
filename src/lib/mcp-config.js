@@ -94,6 +94,24 @@ export const mcpConfig = {
       ],
       "description": "Server de démonstration pour tester les capacités MCP"
     }
+    ,"browser": {
+      "command": "node",
+      "args": [
+        "src/mcp/browser-server.mjs"
+      ],
+      "description": "MCP Playwright server for web navigation",
+      "tools": {
+        "open_session": { "description": "Create a browser session (headless by default)" },
+        "close_session": { "description": "Close a session" },
+        "goto": { "description": "Navigate to a URL" },
+        "click": { "description": "Click a selector" },
+        "fill": { "description": "Fill an input" },
+        "waitForSelector": { "description": "Wait for selector state" },
+        "evaluate": { "description": "Evaluate JS expression" },
+        "screenshot": { "description": "Capture screenshot (page or element)" },
+        "content": { "description": "Get current HTML" }
+      }
+    }
   }
 };
 
