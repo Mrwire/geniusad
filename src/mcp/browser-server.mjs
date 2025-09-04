@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { createServer } from '@modelcontextprotocol/sdk/server/index.js';
-import { tool } from '@modelcontextprotocol/sdk/types.js';
-import * as rpc from '@modelcontextprotocol/sdk/types.js';
+import { Server } from '@modelcontextprotocol/sdk/server/index.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
 import { chromium } from 'playwright';
 
 const sessions = new Map();
@@ -28,16 +28,20 @@ async function closeSession(sessionId) {
   return true;
 }
 
-const server = createServer({ name: 'mcp-browser', version: '0.1.0' });
+const server = new Server(
+  { name: 'mcp-browser', version: '0.1.0' },
+  { capabilities: { tools: {} } },
+  new StdioServerTransport()
+);
 
-server.tool(
-  tool({
+const tools = [
+  {
     name: 'open_session',
     description: 'Create or reuse a browser session',
     inputSchema: {
       type: 'object',
       properties: {
-        sessionId: { type: 'string', description: 'Arbitrary session id' },
+        sessionId: { type: 'string' },
         headless: { type: 'boolean' },
         locale: { type: 'string' },
         userAgent: { type: 'string' },
@@ -45,34 +49,13 @@ server.tool(
       required: ['sessionId'],
       additionalProperties: false,
     },
-    outputSchema: {
-      type: 'object',
-      properties: { sessionId: { type: 'string' } },
-      required: ['sessionId'],
-    },
-  }),
-  async ({ input }) => {
-    await ensureSession(input.sessionId, input);
-    return { sessionId: input.sessionId };
-  }
-);
-
-server.tool(
-  tool({
+  },
+  {
     name: 'close_session',
     description: 'Close a browser session',
-    inputSchema: {
-      type: 'object',
-      properties: { sessionId: { type: 'string' } },
-      required: ['sessionId'],
-    },
-    outputSchema: { type: 'object', properties: { closed: { type: 'boolean' } }, required: ['closed'] },
-  }),
-  async ({ input }) => ({ closed: await closeSession(input.sessionId) })
-);
-
-server.tool(
-  tool({
+    inputSchema: { type: 'object', properties: { sessionId: { type: 'string' } }, required: ['sessionId'] },
+  },
+  {
     name: 'goto',
     description: 'Navigate to URL in session',
     inputSchema: {
@@ -85,17 +68,8 @@ server.tool(
       },
       required: ['sessionId', 'url'],
     },
-    outputSchema: { type: 'object', properties: { url: { type: 'string' } }, required: ['url'] },
-  }),
-  async ({ input }) => {
-    const { page } = await ensureSession(input.sessionId);
-    await page.goto(input.url, { waitUntil: input.waitUntil || 'load', timeout: input.timeoutMs || 30000 });
-    return { url: page.url() };
-  }
-);
-
-server.tool(
-  tool({
+  },
+  {
     name: 'click',
     description: 'Click an element',
     inputSchema: {
@@ -108,22 +82,8 @@ server.tool(
       },
       required: ['sessionId', 'selector'],
     },
-    outputSchema: { type: 'object', properties: { ok: { type: 'boolean' } }, required: ['ok'] },
-  }),
-  async ({ input }) => {
-    const { page } = await ensureSession(input.sessionId);
-    if (typeof input.nth === 'number') {
-      const el = page.locator(input.selector).nth(input.nth);
-      await el.click({ timeout: input.timeoutMs || 15000 });
-    } else {
-      await page.click(input.selector, { timeout: input.timeoutMs || 15000 });
-    }
-    return { ok: true };
-  }
-);
-
-server.tool(
-  tool({
+  },
+  {
     name: 'fill',
     description: 'Type text into an input',
     inputSchema: {
@@ -136,17 +96,8 @@ server.tool(
       },
       required: ['sessionId', 'selector', 'text'],
     },
-    outputSchema: { type: 'object', properties: { ok: { type: 'boolean' } }, required: ['ok'] },
-  }),
-  async ({ input }) => {
-    const { page } = await ensureSession(input.sessionId);
-    await page.fill(input.selector, input.text, { timeout: input.timeoutMs || 15000 });
-    return { ok: true };
-  }
-);
-
-server.tool(
-  tool({
+  },
+  {
     name: 'waitForSelector',
     description: 'Wait for selector state',
     inputSchema: {
@@ -159,41 +110,20 @@ server.tool(
       },
       required: ['sessionId', 'selector'],
     },
-    outputSchema: { type: 'object', properties: { ok: { type: 'boolean' } }, required: ['ok'] },
-  }),
-  async ({ input }) => {
-    const { page } = await ensureSession(input.sessionId);
-    await page.waitForSelector(input.selector, { state: input.state || 'visible', timeout: input.timeoutMs || 15000 });
-    return { ok: true };
-  }
-);
-
-server.tool(
-  tool({
+  },
+  {
     name: 'evaluate',
     description: 'Evaluate JS in the page context',
     inputSchema: {
       type: 'object',
       properties: {
         sessionId: { type: 'string' },
-        expression: { type: 'string', description: 'A serializable JS expression to eval' },
+        expression: { type: 'string' },
       },
       required: ['sessionId', 'expression'],
     },
-    outputSchema: { type: 'object', properties: { value: {} }, required: ['value'] },
-  }),
-  async ({ input }) => {
-    const { page } = await ensureSession(input.sessionId);
-    const value = await page.evaluate((expr) => {
-      // eslint-disable-next-line no-new-func
-      return Function(`return (${expr})`)();
-    }, input.expression);
-    return { value };
-  }
-);
-
-server.tool(
-  tool({
+  },
+  {
     name: 'screenshot',
     description: 'Capture a screenshot',
     inputSchema: {
@@ -207,37 +137,82 @@ server.tool(
       },
       required: ['sessionId'],
     },
-    outputSchema: { type: 'object', properties: { base64: { type: 'string' } }, required: ['base64'] },
-  }),
-  async ({ input }) => {
-    const { page } = await ensureSession(input.sessionId);
-    let buffer;
-    if (input.selector) {
-      const el = page.locator(input.selector).first();
-      buffer = await el.screenshot({ type: input.type || 'png', quality: input.quality });
-    } else {
-      buffer = await page.screenshot({ fullPage: input.fullPage !== false, type: input.type || 'png', quality: input.quality });
-    }
-    return { base64: Buffer.from(buffer).toString('base64') };
-  }
-);
-
-server.tool(
-  tool({
+  },
+  {
     name: 'content',
     description: 'Get current page content (HTML)',
     inputSchema: { type: 'object', properties: { sessionId: { type: 'string' } }, required: ['sessionId'] },
-    outputSchema: { type: 'object', properties: { html: { type: 'string' } }, required: ['html'] },
-  }),
-  async ({ input }) => {
-    const { page } = await ensureSession(input.sessionId);
-    return { html: await page.content() };
+  },
+];
+
+server.setRequestHandler(ListToolsRequestSchema, async () => ({ tools }));
+
+server.setRequestHandler(CallToolRequestSchema, async (req) => {
+  const { name, arguments: args } = req.params;
+  try {
+    switch (name) {
+      case 'open_session': {
+        await ensureSession(args.sessionId, args);
+        return { content: [{ type: 'text', text: JSON.stringify({ sessionId: args.sessionId }) }] };
+      }
+      case 'close_session': {
+        const closed = await closeSession(args.sessionId);
+        return { content: [{ type: 'text', text: JSON.stringify({ closed }) }] };
+      }
+      case 'goto': {
+        const { page } = await ensureSession(args.sessionId);
+        await page.goto(args.url, { waitUntil: args.waitUntil || 'load', timeout: args.timeoutMs || 30000 });
+        return { content: [{ type: 'text', text: JSON.stringify({ url: page.url() }) }] };
+      }
+      case 'click': {
+        const { page } = await ensureSession(args.sessionId);
+        if (typeof args.nth === 'number') {
+          await page.locator(args.selector).nth(args.nth).click({ timeout: args.timeoutMs || 15000 });
+        } else {
+          await page.click(args.selector, { timeout: args.timeoutMs || 15000 });
+        }
+        return { content: [{ type: 'text', text: JSON.stringify({ ok: true }) }] };
+      }
+      case 'fill': {
+        const { page } = await ensureSession(args.sessionId);
+        await page.fill(args.selector, args.text, { timeout: args.timeoutMs || 15000 });
+        return { content: [{ type: 'text', text: JSON.stringify({ ok: true }) }] };
+      }
+      case 'waitForSelector': {
+        const { page } = await ensureSession(args.sessionId);
+        await page.waitForSelector(args.selector, { state: args.state || 'visible', timeout: args.timeoutMs || 15000 });
+        return { content: [{ type: 'text', text: JSON.stringify({ ok: true }) }] };
+      }
+      case 'evaluate': {
+        const { page } = await ensureSession(args.sessionId);
+        const value = await page.evaluate((expr) => Function(`return (${expr})`)(), args.expression);
+        return { content: [{ type: 'text', text: JSON.stringify({ value }) }] };
+      }
+      case 'screenshot': {
+        const { page } = await ensureSession(args.sessionId);
+        let buffer;
+        if (args.selector) {
+          buffer = await page.locator(args.selector).first().screenshot({ type: args.type || 'png', quality: args.quality });
+        } else {
+          buffer = await page.screenshot({ fullPage: args.fullPage !== false, type: args.type || 'png', quality: args.quality });
+        }
+        return { content: [{ type: 'image', data: Buffer.from(buffer).toString('base64'), mimeType: args.type === 'jpeg' ? 'image/jpeg' : 'image/png' }] };
+      }
+      case 'content': {
+        const { page } = await ensureSession(args.sessionId);
+        const html = await page.content();
+        return { content: [{ type: 'text', text: html }] };
+      }
+      default:
+        throw new Error(`Unknown tool: ${name}`);
+    }
+  } catch (err) {
+    return { content: [{ type: 'text', text: JSON.stringify({ error: String(err.message || err) }) }] };
   }
-);
+});
 
 server.onerror = (err) => {
   console.error('MCP Browser server error:', err);
 };
 
-server.start();
-
+server.connect();
