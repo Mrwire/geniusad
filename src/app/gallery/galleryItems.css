@@ -1,0 +1,446 @@
+/* Gallery item styles */
+.item {
+  position: absolute;
+  overflow: hidden;
+  background-color: #000000;
+  cursor: pointer;
+  border-radius: var(--border-radius, 0px);
+}
+
+.item-image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.item-image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 var(--vignette-size, 0px) rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+
+.item:hover img {
+  transform: scale(var(--hover-scale, 1.05));
+}
+
+.item-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 2;
+}
+
+.item-name {
+  font-family: "PP Neue Montreal", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  margin-bottom: 2px;
+  position: relative;
+  overflow: hidden;
+  height: 16px;
+}
+
+.item-name .word {
+  position: relative;
+  display: inline-block;
+  will-change: transform;
+}
+
+.item-number {
+  font-family: "TheGoodMonolith", monospace;
+  color: #888888;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+  overflow: hidden;
+  height: 14px;
+}
+
+.item-number .char {
+  position: relative;
+  display: inline-block;
+  will-change: transform;
+}
+
+/* Expanded item should be above overlay but below titles and captions */
+.expanded-item {
+  position: fixed;
+  z-index: 10000;
+  /* Lower than project-title and caption-clone */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: var(--border-radius, 0px);
+  width: 90vw;
+  height: 90vh;
+  animation: expandIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.expanded-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/* Caption clone needs to be above expanded item */
+.caption-clone {
+  position: fixed;
+  z-index: 10002;
+  /* Same as project-title to be above expanded-item */
+}
+
+/* Clone styles for animation */
+.caption-clone .item-name,
+.caption-clone .item-number {
+  overflow: hidden;
+}
+
+/* Project title word styles */
+.project-title p .word {
+  position: relative;
+  display: inline-block;
+  font-family: "PP Neue Montreal", sans-serif;
+  font-size: 36px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  transform: translateY(0%);
+  will-change: transform;
+}
+
+/* Tweakpane styles */
+.tp-dfwv {
+  z-index: 10000 !important;
+}
+
+/* Make sure the Tweakpane tab is visible when collapsed */
+.tp-rotv {
+  opacity: 0.5 !important;
+}
+
+.tp-rotv.tp-rotv-expanded {
+  opacity: 1 !important;
+}
+
+.tp-rotv.tp-rotv-collapsed {
+  opacity: 0.7 !important;
+}
+
+/* Prevent scrolling when project is open */
+body.project-open {
+  overflow: hidden;
+}
+
+/* Project info card styles */
+.project-info-card {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  max-width: 450px;
+  backdrop-filter: blur(10px);
+  z-index: 2;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  transform: translateY(20px);
+  opacity: 0;
+  animation: slideIn 0.5s ease forwards 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-info-card h3 {
+  font-family: "PP Neue Montreal", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.project-identifier {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 12px;
+}
+
+.project-id-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-right: 8px;
+  animation: pulse 2s infinite;
+}
+
+.project-identifier p {
+  font-family: "TheGoodMonolith", monospace;
+  font-size: 14px;
+  color: #bbbbbb;
+  margin: 0;
+}
+
+.project-metadata {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.metadata-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.metadata-label {
+  font-family: "TheGoodMonolith", monospace;
+  font-size: 11px;
+  color: #888888;
+  margin-bottom: 4px;
+}
+
+.metadata-value {
+  font-family: "PP Neue Montreal", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.project-info-card .project-description {
+  font-family: "PP Neue Montreal", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #dddddd;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.project-close-hint {
+  font-family: "TheGoodMonolith", monospace;
+  font-size: 12px;
+  color: #888888;
+  font-style: italic;
+  opacity: 0.7;
+  text-align: right;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes expandIn {
+  from {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    width: 90vw;
+    height: 90vh;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Project gallery view */
+.project-gallery-view {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Project navigation */
+.project-navigation {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 10px 15px;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.nav-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-arrow:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.image-counter {
+  font-family: "TheGoodMonolith", monospace;
+  font-size: 14px;
+  color: white;
+  margin: 0 15px;
+}
+
+/* Project thumbnails */
+.project-thumbnails {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  max-width: 80%;
+  overflow-x: auto;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For IE and Edge */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-thumbnails::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
+  opacity: 0.7;
+  position: relative;
+}
+
+.thumbnail.active {
+  border: 2px solid white;
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+/* Animation for thumbnails */
+.thumbnail {
+  animation: fadeInScale 0.3s ease forwards;
+  animation-delay: calc(0.05s * var(--index, 0));
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-navigation {
+    bottom: 110px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  
+  .project-thumbnails {
+    bottom: 30px;
+    padding: 8px;
+    gap: 8px;
+  }
+  
+  .thumbnail {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .project-info-card {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 200px;
+    max-width: 90%;
+    padding: 15px;
+  }
+} 

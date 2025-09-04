@@ -1,0 +1,545 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+}
+
+/* Animation for the pulsing effect */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Animation for the ping effect */
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Custom animations for the orbital timeline */
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+/* Backdrop blur */
+.backdrop-blur-lg {
+  backdrop-filter: blur(16px);
+}
+
+/* Custom gradients */
+.bg-gradient-orbital {
+  background: linear-gradient(to bottom right, #6366f1, #3b82f6, #14b8a6);
+}
+
+/* Z-index utilities */
+.z-10 {
+  z-index: 10;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+/* Custom shadows */
+.shadow-orbital {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Custom transforms */
+.scale-125 {
+  transform: scale(1.25);
+}
+
+.scale-150 {
+  transform: scale(1.5);
+}
+
+/* Import des polices */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Import des composants UI */
+@import "../components/ui/gradient-button.css";
+
+/* Import du fichier de styles uniformisé */
+@import "./styles.css";
+
+/* Animation for the pulsing effect */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Animation for the ping effect */
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Custom animations for the orbital timeline */
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+/* Backdrop blur */
+.backdrop-blur-lg {
+  backdrop-filter: blur(16px);
+}
+
+/* Custom gradients */
+.bg-gradient-orbital {
+  background: linear-gradient(to bottom right, #6366f1, #3b82f6, #14b8a6);
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --primary: 222.2 47.4% 11.2%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 222.2 84% 4.9%;
+  --radius: 0.5rem;
+  --border-color: 214.3 31.8% 91.4%;
+  
+  /* Custom variables */
+  --spacing-base: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --color-text: hsl(var(--foreground));
+  --color-text-dim: 0.6;
+  --transition-medium: 0.3s ease;
+  --font-size-base: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-inter), "PP Neue Montreal", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Animated noise effect */
+body::before {
+  content: "";
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: transparent
+    url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
+  background-size: 300px 300px;
+  animation: noise-animation 0.3s steps(5) infinite;
+  opacity: 0.9;
+  will-change: transform;
+  z-index: 100;
+  pointer-events: none;
+}
+
+@keyframes noise-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  10% {
+    transform: translate(-2%, -3%);
+  }
+
+  20% {
+    transform: translate(-4%, 2%);
+  }
+
+  30% {
+    transform: translate(2%, -4%);
+  }
+
+  40% {
+    transform: translate(-2%, 5%);
+  }
+
+  50% {
+    transform: translate(-4%, 2%);
+  }
+
+  60% {
+    transform: translate(3%, 0);
+  }
+
+  70% {
+    transform: translate(0, 3%);
+  }
+
+  80% {
+    transform: translate(-3%, 0);
+  }
+
+  90% {
+    transform: translate(2%, 2%);
+  }
+
+  100% {
+    transform: translate(1%, 0);
+  }
+}
+
+@layer base {
+  * {
+    @apply border;
+  }
+  
+  body {
+    @apply bg-black text-white;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-poppins), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  h1 { font-size: clamp(2.5rem, 5vw, 3.75rem); }
+  h2 { font-size: clamp(2rem, 4vw, 3rem); }
+  h3 { font-size: clamp(1.5rem, 3vw, 2.25rem); }
+  h4 { font-size: clamp(1.25rem, 2.5vw, 1.875rem); }
+  h5 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
+  h6 { font-size: clamp(1rem, 1.5vw, 1.25rem); }
+
+  @media (min-width: 768px) { 
+    h1 { font-size: 3.75rem; }
+    h2 { font-size: 3rem; }
+    h3 { font-size: 2.25rem; }
+    h4 { font-size: 1.875rem; }
+    h5 { font-size: 1.5rem; }
+    h6 { font-size: 1.25rem; }
+  }
+  
+  p { margin-bottom: 1.5rem; }
+
+  a { 
+    color: #E0E0E0;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: #E0E0E0;
+  }
+}
+
+p { margin-bottom: 1.5rem; }
+
+a { 
+  color: #E0E0E0;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #E0E0E0;
+}
+
+/* Color variables */
+:root {
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-cyan: #E0E0E0;
+  --color-cyan-light: #9CFFFC;
+  --color-cyan-dark: #E0E0E0;
+  --color-gray-50: #F9F9F9;
+  --color-gray-100: #F3F3F3;
+  --color-gray-200: #E6E6E6;
+  --color-gray-300: #CCCCCC;
+  --color-gray-400: #B3B3B3;
+  --color-gray-500: #999999;
+  --color-gray-600: #666666;
+  --color-gray-700: #4D4D4D;
+  --color-gray-800: #333333;
+  --color-gray-900: #1A1A1A;
+  --color-mps: #0066FF;
+  --color-labrigad: #FF3300;
+  --color-gamius: #9933FF;
+  --color-moujeleell: #00CC66;
+  --accent-color: #E0E0E0; /* Default cyan */
+}
+
+/* Subsidiary theming */
+[data-subsidiary="mps"] {
+  --accent-color: #0057B8; /* Darker blue for better contrast */
+  --accent-light: #3B7ED3;
+  --accent-dark: #004494;
+}
+
+[data-subsidiary="labrigad"] {
+  --accent-color: #D14124; /* Adjusted for better contrast */
+  --accent-light: #E16850;
+  --accent-dark: #B73620;
+}
+
+[data-subsidiary="gamius"] {
+  --accent-color: #7928CA; /* Adjusted for better contrast */
+  --accent-light: #954FD6;
+  --accent-dark: #6423A3;
+}
+
+[data-subsidiary="moujeleell"] {
+  --accent-color: #087F5B; /* Adjusted for better contrast */
+  --accent-light: #20A37E;
+  --accent-dark: #076A4C;
+}
+
+/* Utility classes */
+.bg-black { background-color: var(--color-black); }
+.bg-white { background-color: var(--color-white); }
+.bg-cyan { background-color: var(--color-cyan); }
+.bg-gray-100 { background-color: var(--color-gray-100); }
+.bg-gray-900 { background-color: var(--color-gray-900); }
+
+.text-black { color: var(--color-black); }
+.text-white { color: var(--color-white); }
+.text-cyan { color: var(--color-cyan); }
+.text-gray-800 { color: var(--color-gray-800); }
+
+.border-black { border-color: var(--color-black); }
+.border { border-width: 1px; border-style: solid; }
+
+.rounded { border-radius: 0.25rem; }
+.p-4 { padding: 1rem; }
+.p-8 { padding: 2rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.mr-2 { margin-right: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.mt-8 { margin-top: 2rem; }
+.min-h-screen { min-height: 100vh; }
+
+.grid { display: grid; }
+.gap-4 { gap: 1rem; }
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.font-bold { font-weight: 700; }
+.text-4xl { font-size: 2.25rem; }
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+/* Spring curve animation for Apple-esque feel */
+@keyframes springIn {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  40% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-spring-in {
+  animation: springIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  opacity: 0;
+}
+
+/* Subtle float animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Arc trace animation for logo */
+@keyframes arcTrace {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-arc-trace {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: arcTrace 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+/* Ajouter une classe shadow-text pour créer une ombre sur le texte */
+.shadow-text {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7), 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Personnaliser la barre de défilement */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 217, 217, 0.5);
+}
+
+@layer base {
+  * {
+    @apply border-0;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

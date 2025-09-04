@@ -1,0 +1,37 @@
+/* Reset pour les images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Correction spécifique pour les images Next.js qui utilisent l'attribut fill */
+div:has(> img[data-nimg="fill"]) {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* S'assurer que les conteneurs d'images conservent leurs dimensions */
+.aspect-square {
+  aspect-ratio: 1 / 1 !important;
+  width: 100% !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.aspect-\[3\/4\] {
+  aspect-ratio: 3 / 4 !important;
+  width: 100% !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Correction pour les images dans les modales */
+.absolute.inset-0.flex.items-center.justify-center {
+  position: absolute !important;
+  inset: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+}

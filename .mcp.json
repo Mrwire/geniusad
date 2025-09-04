@@ -1,0 +1,23 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "apiKey",
+      "description": "21st.dev Magic API Key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "@21st-dev/magic": {
+      "command": "npx",
+      "args": [
+        "-y", 
+        "@21st-dev/magic@latest"
+      ],
+      "env": {
+        "API_KEY": "51b307d0e68cad9668c6b30d92aa280e7ba61db9e57be6d6561a7826a1aecaa3",
+        "MAGIC_API_KEY": "51b307d0e68cad9668c6b30d92aa280e7ba61db9e57be6d6561a7826a1aecaa3"
+      }
+    }
+  }
+}

@@ -1,0 +1,427 @@
+[
+  {
+    "id": "start",
+    "speaker": "Gamius",
+    "text": "Salut ! Je suis Gamius, votre assistant virtuel intelligent. Bienvenue dans notre univers interactif ! ✨",
+    "mood": "excited",
+    "animationCue": "intro_mysterious_beckon",
+    "delay": 500,
+    "choices": [
+      {
+        "id": "explore_divisions",
+        "text": "🏢 Découvrir les divisions de Gamius Group",
+        "nextNodeId": "divisions_intro",
+        "icon": "🌟",
+        "animationTrigger": "reaction_excited_bounce"
+      },
+      {
+        "id": "learn_about_tech",
+        "text": "💻 En savoir plus sur nos technologies",
+        "nextNodeId": "tech_intro",
+        "icon": "⚡",
+        "animationTrigger": "reaction_thinking_tilt"
+      },
+      {
+        "id": "interactive_demo",
+        "text": "🎮 Voir une démonstration interactive",
+        "nextNodeId": "demo_start",
+        "icon": "🎭",
+        "animationTrigger": "color_change_rainbow"
+      }
+    ]
+  },
+  {
+    "id": "divisions_intro",
+    "speaker": "Gamius",
+    "text": "Gamius Group se compose de plusieurs divisions spécialisées, chacune excellant dans son domaine. Laissez-moi vous les présenter !",
+    "mood": "excited",
+    "animationCue": "float",
+    "choices": [
+      {
+        "id": "code_division",
+        "text": "👨‍💻 Gamius Code - Développement logiciel",
+        "nextNodeId": "code_details",
+        "icon": "💻",
+        "animationTrigger": "dialogue_listening_ear_twitch"
+      },
+      {
+        "id": "studio_division",
+        "text": "🎨 Gamius Studio - Création numérique",
+        "nextNodeId": "studio_details",
+        "icon": "🎨",
+        "animationTrigger": "reaction_excited_bounce"
+      },
+      {
+        "id": "event_division",
+        "text": "🎪 Gamius Event - Événementiel",
+        "nextNodeId": "event_details",
+        "icon": "🎉",
+        "animationTrigger": "intro_mysterious_beckon"
+      },
+      {
+        "id": "esport_division",
+        "text": "🏆 Gamius eSport - Compétition gaming",
+        "nextNodeId": "esport_details",
+        "icon": "🎮",
+        "animationTrigger": "color_change_rainbow"
+      }
+    ]
+  },
+  {
+    "id": "code_details",
+    "speaker": "Gamius",
+    "text": "Gamius Code est notre division de développement logiciel de pointe. Nous créons des applications web, mobiles et des solutions d'IA révolutionnaires !",
+    "mood": "thinking",
+    "animationCue": "dialogue_speaking_mouth_move",
+    "imageSrc": "/item_images/gamius_filiale_isometric/gamius_code_isometric.png",
+    "choices": [
+      {
+        "id": "code_projects",
+        "text": "📱 Voir nos projets récents",
+        "nextNodeId": "code_projects",
+        "icon": "🚀"
+      },
+      {
+        "id": "code_tech_stack",
+        "text": "⚙️ Découvrir notre stack technique",
+        "nextNodeId": "tech_stack",
+        "icon": "🔧"
+      },
+      {
+        "id": "back_divisions",
+        "text": "⬅️ Retour aux divisions",
+        "nextNodeId": "divisions_intro",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "studio_details",
+    "speaker": "Gamius",
+    "text": "Gamius Studio, c'est là où la créativité rencontre la technologie ! Design graphique, animation 3D, effets visuels... Nous donnons vie à vos idées !",
+    "mood": "excited",
+    "animationCue": "reaction_excited_bounce",
+    "imageSrc": "/item_images/gamius_filiale_isometric/gamius_studio_isometric.png",
+    "choices": [
+      {
+        "id": "studio_portfolio",
+        "text": "🎨 Voir notre portfolio créatif",
+        "nextNodeId": "studio_portfolio",
+        "icon": "🖼️",
+        "animationTrigger": "color_change_rainbow"
+      },
+      {
+        "id": "studio_services",
+        "text": "✨ Découvrir nos services",
+        "nextNodeId": "studio_services",
+        "icon": "⭐"
+      },
+      {
+        "id": "back_divisions",
+        "text": "⬅️ Retour aux divisions",
+        "nextNodeId": "divisions_intro",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "event_details",
+    "speaker": "Gamius",
+    "text": "Gamius Event organise des expériences inoubliables ! Conférences tech, hackathons, événements gaming... Nous créons des moments magiques !",
+    "mood": "mysterious",
+    "animationCue": "intro_mysterious_beckon",
+    "imageSrc": "/item_images/gamius_filiale_isometric/gamius_event_isometric.png",
+    "choices": [
+      {
+        "id": "upcoming_events",
+        "text": "📅 Événements à venir",
+        "nextNodeId": "upcoming_events",
+        "icon": "🗓️"
+      },
+      {
+        "id": "past_events",
+        "text": "📸 Nos événements passés",
+        "nextNodeId": "past_events",
+        "icon": "🏆"
+      },
+      {
+        "id": "back_divisions",
+        "text": "⬅️ Retour aux divisions",
+        "nextNodeId": "divisions_intro",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "esport_details",
+    "speaker": "Gamius",
+    "text": "Gamius eSport, c'est la passion du gaming compétitif ! Équipes professionnelles, tournois, coaching... Rejoignez l'élite du gaming !",
+    "mood": "excited",
+    "animationCue": "reaction_excited_bounce",
+    "imageSrc": "/item_images/gamius_filiale_isometric/gamius_esport_isometric.png",
+    "choices": [
+      {
+        "id": "esport_teams",
+        "text": "👥 Nos équipes eSport",
+        "nextNodeId": "esport_teams",
+        "icon": "🏅"
+      },
+      {
+        "id": "tournaments",
+        "text": "🏆 Tournois et compétitions",
+        "nextNodeId": "tournaments",
+        "icon": "🎯"
+      },
+      {
+        "id": "back_divisions",
+        "text": "⬅️ Retour aux divisions",
+        "nextNodeId": "divisions_intro",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "tech_intro",
+    "speaker": "Gamius",
+    "text": "Notre stack technologique est à la pointe de l'innovation ! IA, blockchain, réalité virtuelle... Nous maîtrisons les technologies du futur !",
+    "mood": "thinking",
+    "animationCue": "reaction_thinking_tilt",
+    "choices": [
+      {
+        "id": "ai_tech",
+        "text": "🤖 Intelligence Artificielle",
+        "nextNodeId": "ai_details",
+        "icon": "🧠",
+        "animationTrigger": "dialogue_speaking_mouth_move"
+      },
+      {
+        "id": "web_tech",
+        "text": "🌐 Technologies Web",
+        "nextNodeId": "web_details",
+        "icon": "💻"
+      },
+      {
+        "id": "mobile_tech",
+        "text": "📱 Développement Mobile",
+        "nextNodeId": "mobile_details",
+        "icon": "📲"
+      },
+      {
+        "id": "back_start",
+        "text": "🏠 Retour au menu principal",
+        "nextNodeId": "start",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "demo_start",
+    "speaker": "Gamius",
+    "text": "Prêt pour une démonstration de mes capacités ? Je peux montrer différentes animations et interactions en temps réel !",
+    "mood": "excited",
+    "animationCue": "color_change_rainbow",
+    "choices": [
+      {
+        "id": "demo_bounce",
+        "text": "🦘 Animation de rebond",
+        "nextNodeId": "demo_feedback",
+        "icon": "⬆️",
+        "animationTrigger": "reaction_excited_bounce"
+      },
+      {
+        "id": "demo_wobble",
+        "text": "🤔 Animation de confusion",
+        "nextNodeId": "demo_feedback",
+        "icon": "❓",
+        "animationTrigger": "reaction_confused_wobble"
+      },
+      {
+        "id": "demo_rainbow",
+        "text": "🌈 Changement de couleur",
+        "nextNodeId": "demo_feedback",
+        "icon": "🎨",
+        "animationTrigger": "color_change_rainbow"
+      },
+      {
+        "id": "demo_float",
+        "text": "☁️ Mode flottement",
+        "nextNodeId": "demo_feedback",
+        "icon": "💫",
+        "animationTrigger": "float"
+      }
+    ]
+  },
+  {
+    "id": "demo_feedback",
+    "speaker": "Gamius",
+    "text": "Super ! J'espère que cette démonstration vous a plu ! Je peux exécuter de nombreuses autres animations et interactions.",
+    "mood": "excited",
+    "animationCue": "dialogue_listening_ear_twitch",
+    "choices": [
+      {
+        "id": "more_demos",
+        "text": "🎭 Voir plus d'animations",
+        "nextNodeId": "demo_start",
+        "icon": "🔄",
+        "animationTrigger": "intro_mysterious_beckon"
+      },
+      {
+        "id": "explore_more",
+        "text": "🌟 Explorer autres fonctionnalités",
+        "nextNodeId": "start",
+        "icon": "🚀"
+      },
+      {
+        "id": "contact_info",
+        "text": "📧 Informations de contact",
+        "nextNodeId": "contact",
+        "icon": "📞"
+      }
+    ]
+  },
+  {
+    "id": "ai_details",
+    "speaker": "Gamius",
+    "text": "Notre expertise en IA couvre le machine learning, le traitement du langage naturel, la vision par ordinateur et bien plus ! Comme moi, par exemple ! 😊",
+    "mood": "thinking",
+    "animationCue": "dialogue_speaking_mouth_move",
+    "choices": [
+      {
+        "id": "ml_projects",
+        "text": "🧠 Projets de Machine Learning",
+        "nextNodeId": "ml_showcase",
+        "icon": "🤖"
+      },
+      {
+        "id": "nlp_projects",
+        "text": "💬 Traitement du langage naturel",
+        "nextNodeId": "nlp_showcase",
+        "icon": "🗣️"
+      },
+      {
+        "id": "back_tech",
+        "text": "⬅️ Retour aux technologies",
+        "nextNodeId": "tech_intro",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "contact",
+    "speaker": "Gamius",
+    "text": "Vous souhaitez nous contacter ? Nous serions ravis de discuter de vos projets ! Voici comment nous joindre :",
+    "mood": "neutral",
+    "animationCue": "reaction_thinking_tilt",
+    "choices": [
+      {
+        "id": "email_contact",
+        "text": "📧 contact@gamius-group.com",
+        "nextNodeId": "contact_thanks",
+        "icon": "📨"
+      },
+      {
+        "id": "website_visit",
+        "text": "🌐 Visiter notre site web",
+        "nextNodeId": "contact_thanks",
+        "icon": "🔗"
+      },
+      {
+        "id": "back_start",
+        "text": "🏠 Retour au menu principal",
+        "nextNodeId": "start",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "contact_thanks",
+    "speaker": "Gamius",
+    "text": "Merci de votre intérêt pour Gamius Group ! N'hésitez pas à nous contacter, nous répondons rapidement à toutes les demandes.",
+    "mood": "excited",
+    "animationCue": "reaction_excited_bounce",
+    "isEnding": true,
+    "choices": [
+      {
+        "id": "restart",
+        "text": "🔄 Recommencer la conversation",
+        "nextNodeId": "start",
+        "icon": "🔄"
+      }
+    ]
+  },
+  {
+    "id": "code_projects",
+    "speaker": "Gamius",
+    "text": "Nos projets récents incluent des plateformes e-commerce avancées, des applications mobiles innovantes et des solutions d'IA sur mesure !",
+    "mood": "excited",
+    "animationCue": "dialogue_speaking_mouth_move",
+    "choices": [
+      {
+        "id": "ecommerce_project",
+        "text": "🛒 Plateformes e-commerce",
+        "nextNodeId": "project_details",
+        "icon": "💰"
+      },
+      {
+        "id": "mobile_projects",
+        "text": "📱 Applications mobiles",
+        "nextNodeId": "project_details",
+        "icon": "📲"
+      },
+      {
+        "id": "back_code",
+        "text": "⬅️ Retour à Gamius Code",
+        "nextNodeId": "code_details",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "project_details",
+    "speaker": "Gamius",
+    "text": "Chaque projet est unique et développé avec les dernières technologies. Nous privilégions la performance, la sécurité et l'expérience utilisateur !",
+    "mood": "thinking",
+    "animationCue": "reaction_thinking_tilt",
+    "choices": [
+      {
+        "id": "tech_stack",
+        "text": "⚙️ Technologies utilisées",
+        "nextNodeId": "tech_stack",
+        "icon": "🔧"
+      },
+      {
+        "id": "back_projects",
+        "text": "⬅️ Retour aux projets",
+        "nextNodeId": "code_projects",
+        "icon": "🔙"
+      }
+    ]
+  },
+  {
+    "id": "tech_stack",
+    "speaker": "Gamius",
+    "text": "Notre stack technique : React/Next.js, Node.js, Python, Docker, AWS, PostgreSQL, MongoDB, et bien d'autres technologies modernes !",
+    "mood": "excited",
+    "animationCue": "color_change_rainbow",
+    "choices": [
+      {
+        "id": "frontend_tech",
+        "text": "🎨 Technologies Frontend",
+        "nextNodeId": "frontend_details",
+        "icon": "🖥️"
+      },
+      {
+        "id": "backend_tech",
+        "text": "⚙️ Technologies Backend",
+        "nextNodeId": "backend_details",
+        "icon": "🔧"
+      },
+      {
+        "id": "back_code",
+        "text": "⬅️ Retour à Gamius Code",
+        "nextNodeId": "code_details",
+        "icon": "🔙"
+      }
+    ]
+  }
+]

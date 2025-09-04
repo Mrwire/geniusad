@@ -1,0 +1,40 @@
+/* Fix pour les images qui prennent toute la page */
+img[data-nimg="fill"] {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+/* S'assurer que les conteneurs d'images sont bien positionnés */
+div:has(> img[data-nimg="fill"]) {
+  position: relative;
+  overflow: hidden;
+}
+
+/* S'assurer que les conteneurs d'images conservent leurs dimensions */
+.aspect-square {
+  aspect-ratio: 1 / 1;
+  position: relative;
+}
+
+.aspect-\[3\/4\] {
+  aspect-ratio: 3 / 4;
+  position: relative;
+}
+
+/* Correction des problèmes de débordement */
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+/* Correction pour le conteneur de l'image en mode modal */
+.absolute.inset-0.flex.items-center.justify-center {
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+}

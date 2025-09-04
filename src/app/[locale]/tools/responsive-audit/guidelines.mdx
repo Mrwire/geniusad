@@ -1,0 +1,121 @@
+# Responsive Design Guidelines for Genius Ad District
+
+## Core Principles
+
+1. **Mobile-First Approach**
+   - Design and develop for mobile devices first, then progressively enhance for larger screens
+   - Focus on essential content and features for the mobile experience
+   - Ensure all critical functionality works on small screens
+
+2. **Fluid Layouts**
+   - Use relative units (%, em, rem) instead of fixed pixels where appropriate
+   - Implement flexible grid systems that adapt to different screen sizes
+   - Set appropriate max-width constraints to prevent overly stretched layouts on large screens
+
+3. **Breakpoint Strategy**
+   - Follow Tailwind CSS breakpoint system:
+     - `sm`: 640px (Small devices)
+     - `md`: 768px (Medium devices)
+     - `lg`: 1024px (Large devices)
+     - `xl`: 1280px (Extra large devices)
+     - `2xl`: 1536px (Extra extra large devices)
+   - Avoid adding custom breakpoints unless absolutely necessary
+   - Choose breakpoints based on content needs, not specific devices
+
+4. **Performance Optimization**
+   - Use responsive images with appropriate srcsets
+   - Lazy load off-screen content
+   - Optimize assets for different device capabilities
+
+## Responsive Patterns
+
+### Navigation
+
+- Mobile: Use hamburger menu or simplified navigation
+- Tablet: Consider dropdown or expandable sections
+- Desktop: Use full horizontal navigation with dropdowns
+- Ensure touch targets are at least 44×44px for mobile users
+
+### Typography
+
+- Use responsive type scales:
+  - Small screens: Smaller base font size (14-16px)
+  - Larger screens: Larger base font size (16-18px)
+- Implement fluid typography where appropriate:
+  ```css
+  font-size: clamp(1rem, 0.5rem + 1vw, 1.5rem);
+  ```
+- Maintain proper line lengths (45-75 characters per line)
+
+### Images
+
+- Use the Next.js Image component with responsive widths
+- Implement art direction when needed using the `<picture>` element
+- Ensure images maintain appropriate aspect ratios
+- Consider different crops for extreme aspect ratios
+
+### Grid Layouts
+
+- Single column on mobile
+- 2-3 columns on tablet
+- 3-4+ columns on desktop
+- Use gap property for consistent spacing
+- Consider asymmetrical grids for visual interest
+
+### Forms
+
+- Stack form fields vertically on mobile
+- Use full width inputs on small screens
+- Place labels above inputs on mobile, possibly beside them on desktop
+- Ensure sufficient spacing between touch targets
+
+## Testing Methodology
+
+1. **Device Testing Checklist**
+   - iOS (iPhone SE, iPhone 13, iPhone 13 Pro Max)
+   - Android (Pixel 5, Galaxy S21)
+   - iPad/Tablets (iPad Mini, iPad Pro)
+   - Desktop (1366×768, 1920×1080, 2560×1440)
+
+2. **Browser Testing Matrix**
+   - Chrome, Safari, Firefox, Edge
+   - iOS Safari
+   - Samsung Internet
+
+3. **Testing Tools**
+   - Use the Responsive Audit Tool
+   - Chrome DevTools Device Mode
+   - BrowserStack for real device testing
+
+## Common Responsive Issues to Watch For
+
+- **Content Overflow**: Text or elements extending beyond their containers
+- **Touch Target Size**: Buttons or links that are too small on mobile
+- **Horizontal Scrolling**: Content causing unwanted horizontal scrolling
+- **Font Readability**: Text that becomes too small on mobile devices
+- **Fixed Positioning**: Elements with fixed positioning breaking layouts
+- **Image Scaling**: Images that don't scale appropriately
+- **Input Handling**: Form elements that are difficult to interact with
+
+## Responsive-Specific WCAG Requirements
+
+- 1.4.4 Resize Text: Text can be resized up to 200% without loss of content or function
+- 1.4.10 Reflow: Content can be presented without scrolling in two dimensions
+- 2.5.5 Target Size: Touch targets should be at least 44×44 pixels
+
+## Implementation Workflow
+
+1. Start with mobile wireframes and designs
+2. Develop mobile version first
+3. Progressively enhance for larger screens
+4. Test across all breakpoints
+5. Optimize performance
+6. Validate responsive accessibility
+
+## Genius Ad District Specific Guidelines
+
+- Ensure the branded "G Arc" animation scales appropriately across devices
+- Maintain minimum padding of 16px on small screens, increasing to 24-32px on larger screens
+- Use the established color system consistently across breakpoints
+- Follow the responsive component variants from our design system
+- Ensure all interactive elements follow the Apple-inspired motion design across devices 

@@ -1,0 +1,2219 @@
+{
+  "common": {
+    "languageName": "English",
+    "switchLanguage": "Switch to French",
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "caseStudies": "Case Studies",
+      "subsidiaries": "Subsidiaries",
+      "contact": "Contact"
+    },
+    "footer": {
+      "copyright": " 2023 Genius Ad District. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "followUs": "Follow Us"
+    },
+    "buttons": {
+      "learnMore": "Learn More",
+      "viewAll": "View All",
+      "submit": "Submit",
+      "send": "Send",
+      "readMore": "Read More",
+      "downloadPDF": "Download PDF",
+      "getStarted": "Get Started",
+      "login": "Login",
+      "register": "Register",
+      "back": "Back",
+      "next": "Next",
+      "apply": "Apply",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "contact": {
+      "title": "Contact",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "subject": "Subject",
+        "phone": "Phone"
+      }
+    }
+  },
+  "homepage": {
+    "hero": {
+      "title": "CREATIVE GENIUS, STRATEGIC IMPACT",
+      "subtitle": "We reinvent brand experiences through a unique fusion of bold creativity and strategic intelligence",
+      "cta": "DISCOVER OUR UNIVERSE"
+    },
+    "about": {
+      "title": "THE GENIUS APPROACH",
+      "content": "Genius Ad District is an elite creative collective that unifies four specialized subsidiaries under a common vision: to radically transform your brand's presence across all touchpoints with your audience. Our exclusive methodology combines visual innovation, data-driven strategy, and impeccable execution to create brand experiences that captivate, convert, and retain."
+    },
+    "services": {
+      "title": "INTEGRATED EXPERTISE",
+      "subtitle": "Holistic solutions for ambitious brands in an ever-evolving media ecosystem"
+    },
+    "subsidiaries": {
+      "title": "OUR CREATIVE ECOSYSTEM",
+      "subtitle": "Four specialized centers of excellence, a perfect synergy for exceptional results"
+    },
+    "caseStudies": {
+      "title": "TRANSFORMATIONAL SUCCESSES",
+      "subtitle": "Explore how our distinctive approach redefines standards and generates measurable results"
+    },
+    "testimonials": {
+      "title": "THEY TRUST US",
+      "subtitle": "Discover the concrete impact of our collaboration with visionary brands"
+    },
+    "cta": {
+      "title": "READY TO REINVENT YOUR BRAND?",
+      "subtitle": "Take the step towards communication that transcends expectations and creates an authentic connection with your audience",
+      "button": "INITIATE YOUR PROJECT"
+    },
+    "expertises": {
+      "title": "AREAS OF EXCELLENCE",
+      "subtitle": "Our mastery extends to all aspects of the modern brand experience",
+      "branding": {
+        "title": "STRATEGIC BRANDING",
+        "description": "Creation and evolution of distinctive brand identities that resonate deeply with your target audience."
+      },
+      "digital": {
+        "title": "DIGITAL EXPERIENCE",
+        "description": "Design of immersive digital ecosystems that generate engagement and conversion."
+      },
+      "events": {
+        "title": "EVENT ACTIVATION",
+        "description": "Organization of memorable physical experiences that strengthen the emotional connection with your brand."
+      },
+      "production": {
+        "title": "PREMIUM PRODUCTION",
+        "description": "Manufacturing of exceptional visual and material assets that embody the excellence of your brand."
+      }
+    },
+    "technologies": {
+      "title": "TECHNOLOGICAL INNOVATION",
+      "subtitle": "Our R&D integrates the most advanced technologies to propel your communication",
+      "ai": "Creative Artificial Intelligence",
+      "ar": "Augmented & Virtual Reality",
+      "data": "Predictive Analysis & Data Visualization",
+      "automation": "Marketing Automation & Personalization"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Our Story",
+      "subtitle": "A journey of creative innovation and strategic excellence"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "Create impactful brand experiences that drive results through innovative design, strategic thinking, and cutting-edge technology."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To become the leading creative agency in North Africa, setting new standards for brand communication across all media."
+    },
+    "values": {
+      "title": "Our Values",
+      "innovation": {
+        "title": "Innovation",
+        "description": "We constantly push boundaries and explore new creative frontiers."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We aim for the highest quality in everything we do."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We work together with our clients to achieve remarkable results."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We maintain honesty and transparency in all our relationships."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The creative minds behind Genius Ad District",
+      "positions": {
+        "ceo": "Chief Executive Officer",
+        "cco": "Chief Creative Officer",
+        "cto": "Chief Technical Officer",
+        "cmo": "Chief Marketing Officer",
+        "director": "Creative Director",
+        "manager": "Project Manager",
+        "designer": "Senior Designer",
+        "developer": "Lead Developer"
+      }
+    },
+    "history": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our growth",
+      "milestones": [
+        {
+          "year": "2015",
+          "title": "Foundation",
+          "description": "Genius Ad District was established in Casablanca, Morocco."
+        },
+        {
+          "year": "2017",
+          "title": "Expansion",
+          "description": "Launch of our first subsidiary, MPS, focused on strategic marketing."
+        },
+        {
+          "year": "2019",
+          "title": "Growth",
+          "description": "Addition of LABRIG'Ad and Gamius to our family of specialized agencies."
+        },
+        {
+          "year": "2021",
+          "title": "Innovation",
+          "description": "Establishment of Mouje-Leell to complete our full-service offering."
+        },
+        {
+          "year": "2023",
+          "title": "Recognition",
+          "description": "Named among the top creative agencies in North Africa."
+        }
+      ]
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive solutions for modern brands"
+    },
+    "categories": {
+      "strategy": {
+        "title": "Strategy",
+        "description": "Data-driven marketing strategies that connect brands with their audiences.",
+        "services": [
+          "Brand Strategy",
+          "Marketing Strategy",
+          "Content Strategy",
+          "Digital Strategy",
+          "Social Media Strategy"
+        ]
+      },
+      "creative": {
+        "title": "Creative",
+        "description": "Innovative design solutions that capture attention and communicate brand values.",
+        "services": [
+          "Brand Identity",
+          "Graphic Design",
+          "UI/UX Design",
+          "Motion Graphics",
+          "Illustration"
+        ]
+      },
+      "digital": {
+        "title": "Digital",
+        "description": "Digital experiences that engage users and drive conversions.",
+        "services": [
+          "Website Development",
+          "Mobile App Development",
+          "E-commerce",
+          "SEO & SEM",
+          "Social Media Management"
+        ]
+      },
+      "experiential": {
+        "title": "Experiential",
+        "description": "Immersive experiences that create lasting impressions.",
+        "services": [
+          "Event Production",
+          "Exhibition Design",
+          "Retail Experiences",
+          "Branded Environments",
+          "Virtual Events"
+        ]
+      },
+      "gaming": {
+        "title": "Gaming & Esports",
+        "description": "Strategic gaming solutions that reach new audiences.",
+        "services": [
+          "Esports Marketing",
+          "Gaming Partnerships",
+          "Gamification",
+          "Branded Gaming Content",
+          "Gaming Events"
+        ]
+      },
+      "media": {
+        "title": "Media Production",
+        "description": "High-quality video and audio content that tells your brand's story.",
+        "services": [
+          "Video Production",
+          "Photography",
+          "Animation",
+          "Audio Production",
+          "Live Streaming"
+        ]
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Discovery",
+          "description": "Understanding your brand, objectives, and challenges"
+        },
+        {
+          "number": "02",
+          "title": "Strategy",
+          "description": "Developing a tailored approach to meet your goals"
+        },
+        {
+          "number": "03",
+          "title": "Creation",
+          "description": "Bringing ideas to life through innovative design and development"
+        },
+        {
+          "number": "04",
+          "title": "Implementation",
+          "description": "Executing the strategy across all channels and platforms"
+        },
+        {
+          "number": "05",
+          "title": "Optimization",
+          "description": "Continuous refinement based on performance and feedback"
+        }
+      ]
+    }
+  },
+  "subsidiaries": {
+    "mps": {
+      "name": "MPS",
+      "tagline": "Strategic Marketing Solutions",
+      "description": "MPS delivers data-driven marketing strategies that connect brands with their target audiences.",
+      "services": [
+        "Brand Strategy",
+        "Market Research",
+        "Media Planning",
+        "Campaign Management",
+        "Performance Marketing"
+      ],
+      "title": "Marketing Production Services",
+      "hero": {
+        "title": "Strategic Marketing for Modern Businesses",
+        "subtitle": "We combine creativity with data-driven strategy to help brands connect with their audiences and achieve measurable results."
+      },
+      "services": {
+        "title": "Our Services",
+        "subtitle": "Comprehensive marketing solutions designed to meet your business objectives"
+      },
+      "Meta": {
+        "title": "MPS - Marketing Production Services | Genius Ad District",
+        "description": "Professional marketing services including brand strategy, content production, campaign management and digital media optimization.",
+        "ogTitle": "MPS: Strategic Marketing Solutions from Genius Ad District",
+        "ogDescription": "Transform your brand with our comprehensive marketing services designed for the modern business landscape."
+      }
+    },
+    "labrigad": {
+      "name": "LABRIG'Ad",
+      "tagline": "Creative Design Studio",
+      "description": "LABRIG'Ad transforms ideas into stunning visual experiences that captivate and engage.",
+      "services": [
+        "Brand Identity",
+        "Graphic Design",
+        "Packaging Design",
+        "Environmental Design",
+        "Exhibition Design"
+      ],
+      "title": "Creative Design Studio",
+      "description": "Transforming ideas into visual experiences that captivate and engage audiences",
+      "hero": {
+        "title": "Design that Makes an Impact",
+        "subtitle": "We craft strategic visual solutions that elevate brands and create meaningful connections with audiences."
+      },
+      "services": {
+        "title": "Our Services",
+        "subtitle": "Comprehensive design solutions for modern brands"
+      },
+      "process": {
+        "title": "Our Design Process",
+        "subtitle": "A strategic approach that ensures exceptional results"
+      },
+      "work": {
+        "title": "Featured Work",
+        "subtitle": "A selection of our latest projects across various industries"
+      },
+      "Meta": {
+        "title": "LABRIG'Ad - Creative Design Studio | Genius Ad District",
+        "description": "LABRIG'Ad is a creative design studio specializing in brand identity, print & packaging, environmental design, and digital experiences.",
+        "ogTitle": "LABRIG'Ad: Creative Design Solutions from Genius Ad District",
+        "ogDescription": "Transform your brand with our innovative design solutions crafted to captivate your audience and drive business growth."
+      }
+    },
+    "gamius": {
+      "name": "Gamius",
+      "tagline": "Interactive Experiences",
+      "description": "Gamius specializes in creating immersive digital experiences and gamified solutions.",
+      "services": [
+        "Esports Marketing",
+        "Game Development",
+        "Gamification",
+        "Interactive Installations",
+        "Virtual Reality"
+      ],
+      "title": "Gaming & Interactive Experiences",
+      "description": "Transforming brand engagement through immersive gaming experiences and interactive technology",
+      "hero": {
+        "title": "GAMING BECOMES YOUR BEST ASSET",
+        "subtitle": "We transform the power of gaming into unforgettable brand experiences. Enter a new dimension where interaction, fun, and marketing impact merge."
+      },
+      "services": {
+        "title": "Our expertise",
+        "subtitle": "Gaming and immersive experiences",
+        "feature1": {
+          "title": "EXPERIENTIAL GAMING",
+          "description": "GAMIUS designs custom gaming experiences that transcend mere entertainment to become powerful engagement vectors. Our team combines gaming expertise and strategic vision to create activations that capture attention and generate memorable interactions with your brand. From casual gaming to professional e-sports experiences, we adapt our creations to your target audience and marketing objectives."
+        },
+        "feature2": {
+          "title": "VIRTUAL AND AUGMENTED REALITY",
+          "description": "We harness immersive technologies to create universes where your brand can express itself without limits. Our developers design VR/AR experiences that offer a new perspective on your product or service. These technologies become powerful educational, promotional, or experiential tools in our hands, radically transforming the relationship with your audience."
+        },
+        "feature3": {
+          "title": "STRATEGIC GAMIFICATION",
+          "description": "Gamification is a strategic approach that applies game mechanics to non-gaming contexts. GAMIUS excels in the art of infusing these principles into your marketing strategies, loyalty programs, or training. We transform ordinary experiences into engaging journeys that motivate your audiences to act, learn, and interact with enthusiasm."
+        }
+      },
+      "caseStudy": {
+        "title": "SPRITE GAME ARENA",
+        "description": "To strengthen Sprite's connection with Morocco's Gen Z, we developed the 'Sprite Game Arena' – a hybrid system combining national esports competition with a gamified mobile experience. Participants could compete in-person at regional qualifiers while accumulating points via the dedicated app. This dual approach generated exceptional engagement: 87,000 app downloads in 2 weeks, over 1.3 million games played, and a 23% sales increase during the campaign period. The final tournament, broadcast live on digital platforms, attracted more than 340,000 viewers – a record for a gaming event in Morocco."
+      },
+      "process": {
+        "title": "Our Process",
+        "subtitle": "How we create gaming experiences",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Strategy",
+            "description": "Developing a gaming strategy aligned with your brand goals and target audience."
+          },
+          {
+            "number": "02",
+            "title": "Design",
+            "description": "Creating custom gaming experiences, tournaments, or content concepts."
+          },
+          {
+            "number": "03",
+            "title": "Production",
+            "description": "Executing the gaming initiative with professional equipment and personnel."
+          },
+          {
+            "number": "04",
+            "title": "Amplification",
+            "description": "Promoting the gaming content or event across relevant platforms and communities."
+          }
+        ]
+      },
+      "games": {
+        "title": "Featured Projects",
+        "subtitle": "Explore our latest gaming innovations"
+      },
+      "microCta": {
+        "title": "IMAGINE YOUR GAMING EXPERIENCE",
+        "subtitle": "Transform your communication into a memorable interactive experience."
+      },
+      "Meta": {
+        "title": "GAMIUS | Gaming & Immersive Experiences | Genius Ad District",
+        "description": "GAMIUS creates immersive gaming experiences, AR/VR solutions, and gamification strategies that transform brand engagement.",
+        "ogTitle": "GAMIUS: Gaming & Interactive Solutions from Genius Ad District",
+        "ogDescription": "Elevate your brand with cutting-edge gaming experiences, AR/VR technologies, and strategic gamification from our expert team."
+      }
+    },
+    "moujeleell": {
+      "name": "Mouje-Leell",
+      "tagline": "Media Production",
+      "description": "Mouje-Leell produces high-quality video and audio content that tells your brand's story.",
+      "services": [
+        "Video Production",
+        "Motion Graphics",
+        "Sound Design",
+        "Photography",
+        "Live Streaming"
+      ],
+      "title": "MOUJE & LEELL - Space & Interior Design",
+      "description": "Mouje & Leell shapes spaces that tell your story and embody your identity.",
+      "hero": {
+        "title": "SPACE AS LANGUAGE, DESIGN AS SIGNATURE",
+        "subtitle": "Mouje & Leell shapes spaces that tell your story and embody your identity. We create environments where aesthetics meet functionality in perfect harmony."
+      },
+      "cta": "EXPLORE OUR CREATIONS",
+      "services": {
+        "title": "Our expertise",
+        "subtitle": "Excellence in space and interior design",
+        "feature1": {
+          "title": "COMMERCIAL SPACE DESIGN",
+          "description": "We design commercial environments that transform sales spaces into immersive brand experiences. Our approach integrates your brand identity into every detail, creating visual coherence that strengthens your image and optimizes the customer experience. From concept stores to flagships, our designs combine distinctive aesthetics and commercial efficiency to create spaces that convert and build loyalty."
+        },
+        "feature2": {
+          "title": "PREMIUM INTERIOR DESIGN",
+          "description": "Mouje & Leell creates interiors that reflect the very essence of your brand or personality. Our team of designers works with a palette of noble materials and exceptional finishes to design unique and memorable spaces. We orchestrate each project down to the smallest detail, from architectural design to furniture selection, lighting, and final decorative touches."
+        },
+        "feature3": {
+          "title": "SCENOGRAPHY AND EPHEMERAL INSTALLATIONS",
+          "description": "The art of temporary staging requires a particular sensitivity that our team perfectly masters. We design ephemeral installations – stands, pop-up stores, event scenography – that maximize the impact of your presence, however brief. Our expertise combines conceptual creativity and technical feasibility to create spaces that impress and remain etched in memories long after their disappearance."
+        }
+      },
+      "caseStudy": {
+        "title": "NISSAN CASABLANCA FLAGSHIP",
+        "description": "To redefine the automotive customer experience in Morocco, Mouje & Leell designed the new Nissan flagship in Casablanca. Breaking with traditional dealership codes, our design integrates a fluid customer journey where immersive technologies and experiential zones harmonize in a contemporary architectural setting. Noble materials (polished concrete, crafted wood, brushed metal) contrast with integrated digital solutions that personalize the experience. This concept established a new benchmark in premium automotive retail, generating a 40% increase in time spent at the dealership and a measurable impact on high-end model sales."
+      },
+      "process": {
+        "title": "Our Design Process",
+        "subtitle": "A methodical approach for exceptional results"
+      },
+      "work": {
+        "title": "Selected Projects",
+        "subtitle": "Discover our most remarkable creations"
+      },
+      "microCta": {
+        "title": "IMAGINE YOUR SPACE",
+        "subtitle": "Let's shape your vision and create spaces that reflect who you are."
+      },
+      "Meta": {
+        "title": "MOUJE & LEELL | Space & Interior Design | Genius Ad District",
+        "description": "Mouje & Leell shapes spaces that tell your story through premium interior design and distinctive commercial layouts.",
+        "ogTitle": "MOUJE & LEELL - Space as language, design as signature",
+        "ogDescription": "Discover how Mouje & Leell creates environments where aesthetics meet functionality to reflect your identity."
+      }
+    }
+  },
+  "caseStudies": {
+    "Meta": {
+      "title": "Case Studies | Genius Ad District",
+      "description": "Discover how we transform challenges into success. Explore our case studies demonstrating the tangible impact of our creative and strategic approach.",
+      "ogTitle": "Case Studies | Measurable Results | Genius Ad District",
+      "ogDescription": "Explore our portfolio of case studies showcasing how our distinctive approach generates concrete and measurable results for our clients."
+    },
+    "hero": {
+      "title": "OUR ACHIEVEMENTS",
+      "subtitle": "When creativity and strategy transform into measurable results",
+      "cta": "Explore our case studies",
+      "filterCta": "Filter by expertise"
+    },
+    "intro": {
+      "title": "TANGIBLE RESULTS",
+      "description": "Each project tells the story of a challenge transformed into opportunity. Discover how our distinctive approach has enabled our clients to achieve and exceed their business objectives."
+    },
+    "filters": {
+      "all": "All",
+      "featured": "Featured",
+      "recent": "Recent"
+    },
+    "categories": {
+      "branding": "Branding",
+      "digital": "Digital",
+      "experiential": "Experiential",
+      "gaming": "Gaming",
+      "media": "Media"
+    },
+    "industries": {
+      "automotive": "Automotive",
+      "technology": "Technology",
+      "retail": "Retail",
+      "finance": "Finance",
+      "healthcare": "Healthcare",
+      "food": "Food & Beverage",
+      "entertainment": "Entertainment"
+    },
+    "details": {
+      "client": "Client",
+      "industry": "Industry",
+      "services": "Services",
+      "date": "Date",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "results": "Results",
+      "relatedCaseStudies": "Related Case Studies"
+    },
+    "featured": [
+      {
+        "id": "nissan-flagship",
+        "title": "REDEFINING THE AUTOMOTIVE CUSTOMER EXPERIENCE",
+        "subtitle": "A Nissan flagship that revolutionizes the dealership concept",
+        "client": "Nissan",
+        "industry": "Automotive",
+        "services": ["Space Design", "Customer Experience", "Integrated Digital"],
+        "year": "2022",
+        "metrics": {
+          "metric1": {
+            "value": "+40%",
+            "label": "Time spent in dealership"
+          },
+          "metric2": {
+            "value": "+28%",
+            "label": "Conversion rate"
+          },
+          "metric3": {
+            "value": "4.8/5",
+            "label": "Customer satisfaction"
+          }
+        },
+        "thumbnail": "/case-studies/nissan-thumbnail.jpg",
+        "coverImage": "/case-studies/nissan-cover.jpg",
+        "challenge": "In an increasingly competitive Moroccan automotive market, Nissan sought to differentiate itself by radically transforming the traditional purchasing experience. The challenge was to create an environment that reflected the brand's premium repositioning while facilitating the customer journey.",
+        "solution": "We designed an 800m² flagship in Casablanca that breaks with traditional car dealership codes. The space combines immersive exhibition areas, interactive technologies, and a smooth customer journey that naturally guides visitors from discovery to test drives, then to personalized configuration. Each zone was designed to highlight the distinctive attributes of each model, with noble materials that reinforce the brand's premium positioning.",
+        "results": "The new flagship generated a 40% increase in time spent in the dealership and a conversion rate 28% higher than traditional dealerships. The customer experience received an average rating of 4.8/5, and sales of premium models increased by 35% over the first six months. This concept has become a benchmark in the Moroccan automotive sector and is being deployed in other key cities."
+      },
+      {
+        "id": "inwi-gaming",
+        "title": "CONQUERING THE MOROCCAN E-SPORT TERRITORY",
+        "subtitle": "Positioning inwi as the reference operator for gamers",
+        "client": "inwi",
+        "industry": "Telecommunications",
+        "services": ["Gaming Strategy", "Events", "Digital"],
+        "year": "2022",
+        "metrics": {
+          "metric1": {
+            "value": "7,800+",
+            "label": "Participants"
+          },
+          "metric2": {
+            "value": "2.4M",
+            "label": "Streaming views"
+          },
+          "metric3": {
+            "value": "+37%",
+            "label": "Brand preference"
+          }
+        },
+        "thumbnail": "/case-studies/inwi-thumbnail.jpg",
+        "coverImage": "/case-studies/inwi-cover.jpg",
+        "challenge": "Faced with a young audience increasingly difficult to reach through traditional channels, inwi wanted to strengthen its relevance among 15-25 year-olds by positioning itself as the reference operator for Moroccan gamers, a rapidly growing segment still largely untapped by established brands.",
+        "solution": "We developed Morocco's first professional e-sports league. Structured around 3 major games (League of Legends, FIFA, and Fortnite), the competition combined online qualifiers and spectacular physical finals. Beyond the competition itself, we created a complete ecosystem with training programs, educational content on gaming careers, and partnerships with international teams for masterclasses.",
+        "results": "The first season brought together more than 7,800 participants and generated 2.4 million views on live broadcasts. Impact studies showed a 37% improvement in brand preference indicators among 15-25 year-olds, and a significant increase in data plan subscriptions. The program also enabled the emergence of Morocco's first professional teams and positioned inwi as a legitimate and committed player in the local gaming ecosystem."
+      },
+      {
+        "id": "orange-digital-tour",
+        "title": "DEMOCRATIZING DIGITAL SERVICES IN THE REGIONS",
+        "subtitle": "Orange national tour for digital inclusion",
+        "client": "Orange",
+        "industry": "Telecommunications",
+        "services": ["Roadshow", "Brand Experience", "Training"],
+        "year": "2021",
+        "metrics": {
+          "metric1": {
+            "value": "18",
+            "label": "Cities covered"
+          },
+          "metric2": {
+            "value": "45K+",
+            "label": "Visitors"
+          },
+          "metric3": {
+            "value": "+28%",
+            "label": "Service adoption"
+          }
+        },
+        "thumbnail": "/case-studies/orange-thumbnail.jpg",
+        "coverImage": "/case-studies/orange-cover.jpg",
+        "challenge": "Orange wanted to accelerate the adoption of its digital services in regions far from major Moroccan cities, where usage rates remained significantly lower despite good network coverage. The challenge was to educate and train local populations on the concrete benefits of digital tools.",
+        "solution": "We designed and deployed a national roadshow covering 18 cities in 45 days. The traveling setup included a 200m² high-tech mobile showroom with practical service experimentation areas, training spaces, and personalized consultations. Each stop was adapted to local specificities (language, economic needs) and facilitated by teams from the communities visited.",
+        "results": "The tour welcomed more than 45,000 visitors and generated a 28% increase in digital service subscriptions in the regions visited. More than 12,000 people benefited from practical training, and the program created a network of 150 local ambassadors who continue to promote digital inclusion in their communities. This deployment model has since been adopted by Orange in other African countries."
+      },
+      {
+        "id": "coca-cola-summer",
+        "title": "IMMERSIVE SUMMER ACTIVATION",
+        "subtitle": "Transforming Moroccan beaches into Coca-Cola brand territories",
+        "client": "Coca-Cola",
+        "industry": "Food & Beverage",
+        "services": ["Brand Activation", "Experiential", "Digital"],
+        "year": "2022",
+        "metrics": {
+          "metric1": {
+            "value": "80K+",
+            "label": "Direct interactions"
+          },
+          "metric2": {
+            "value": "2.3M",
+            "label": "Social impressions"
+          },
+          "metric3": {
+            "value": "+18%",
+            "label": "Summer sales"
+          }
+        },
+        "thumbnail": "/case-studies/cocacola-thumbnail.jpg",
+        "coverImage": "/case-studies/cocacola-cover.jpg",
+        "challenge": "For the summer season, Coca-Cola sought to strengthen its connection with young Moroccans by creating a memorable brand experience that would generate direct engagement and digital amplification, while boosting sales during this key period.",
+        "solution": "We transformed 5 Moroccan beaches into Coca-Cola territories with interactive installations combining refreshment, music, and sharing. The 'Refresh & Connect' concept combined branded relaxation spaces, playful animations generating shareable content, and surprise pop-up concerts. An ambassador program involving 25 local influencers amplified the experience beyond the physical sites.",
+        "results": "The activation generated more than 80,000 direct interactions and 2.3 million impressions on social networks thanks to user-generated content. Coca-Cola sales increased by 18% in the activation areas during the summer period, and post-campaign studies showed a significant improvement in brand affinity indicators among the 16-24 target audience."
+      },
+      {
+        "id": "cih-digital-launch",
+        "title": "DISRUPTIVE LAUNCH OF A DIGITAL BANKING PLATFORM",
+        "subtitle": "Omnichannel campaign for CIH Bank Online",
+        "client": "CIH Bank",
+        "industry": "Finance",
+        "services": ["Media Strategy", "Advertising Creation", "Digital"],
+        "year": "2022",
+        "metrics": {
+          "metric1": {
+            "value": "12.4M",
+            "label": "Qualified impressions"
+          },
+          "metric2": {
+            "value": "+340%",
+            "label": "Engagement rate"
+          },
+          "metric3": {
+            "value": "40K+",
+            "label": "New accounts"
+          }
+        },
+        "thumbnail": "/case-studies/cih-thumbnail.jpg",
+        "coverImage": "/case-studies/cih-cover.jpg",
+        "challenge": "For the launch of its new fully digital banking platform, CIH Bank needed to stand out in an increasingly competitive Moroccan financial sector. The challenge was to position this offering as truly innovative to an urban, digitalized audience that was wary of online banking solutions.",
+        "solution": "We developed an omnichannel media strategy combining massive presence and precise targeting. Our approach integrated digital urban displays with contextual content, synchronized dressing of major Moroccan information sites, and ultra-targeted programmatic campaigns based on financial behaviors. The creative message centered on the concept 'Your bank, as mobile as you are' used a visual language inspired by the most popular digital interfaces.",
+        "results": "The campaign generated 12.4 million qualified impressions and an engagement rate 340% higher than industry benchmarks. More than 40,000 accounts were opened online in the first two months, exceeding the initial target by 127%. The customer acquisition cost was reduced by 62% compared to traditional channels, establishing a new growth model for the bank."
+      }
+    ],
+    "cta": {
+      "title": "READY TO CREATE YOUR OWN SUCCESS STORY?",
+      "subtitle": "Let's discuss your objectives and how our unique approach can help you achieve them.",
+      "button": "START YOUR PROJECT"
+    }
+  },
+  "clientPortal": {    "Meta": {      "title": "Client Portal | Genius Ad District",      "description": "Access your exclusive client workspace to track project progress, review deliverables, and communicate with your dedicated creative team.",      "ogTitle": "Your Secure Project Management Portal | Genius Ad District",      "ogDescription": "Our state-of-the-art client portal gives you real-time insights into your campaigns, asset management, and project milestones."    },    "login": {      "title": "CLIENT PORTAL",      "subtitle": "Your secure gateway to creative excellence",      "welcomeMessage": "Welcome to your exclusive project management space where innovation meets transparency.",      "email": "Email",      "password": "Password",      "forgotPassword": "Forgot your password?",      "rememberMe": "Remember me on this device",      "login": "SECURE SIGN IN",      "noAccount": "Need portal access for your team?",      "contactUs": "Request Access",      "securityNote": "Your connection is protected with end-to-end encryption"    },    "error": {      "defaultTitle": "Authentication Error",      "defaultMessage": "We've encountered an issue during the authentication process. Please try again or contact your project manager for immediate assistance.",      "invalidCredentialsTitle": "Access Denied",      "invalidCredentialsMessage": "The credentials you entered don't match our records. Please verify your information and try again.",      "accessDeniedTitle": "Restricted Access",      "accessDeniedMessage": "Your current permissions don't allow access to this resource. Please contact your account manager to request additional access rights.",      "sessionRequiredTitle": "Authentication Required",      "sessionRequiredMessage": "This area requires secure authentication. Please sign in to continue exploring your project space.",      "tryAgain": "Try Again",      "backToHome": "Return to Homepage"    },    "unauthorized": {      "title": "Privileged Area",      "message": "This section contains confidential project information restricted to authorized team members. If you believe you should have access, please contact your dedicated project manager.",      "login": "Return to Login",      "dashboard": "Go to Your Dashboard",      "backToHome": "Visit Main Website",      "contactSupport": "Contact Your Project Manager"    },    "dashboard": {      "welcomeBack": "Welcome to your creative ecosystem",      "heroMessage": "Your central command center for tracking, approving and collaborating on your brand's transformative journey",      "pendingApprovals": "Awaiting Your Review",      "recentMessages": "Team Communications",      "upcomingMeetings": "Scheduled Collaborations",      "projectStatus": "Project Journey Tracker",      "assets": "Brand Resources",      "messages": "Creative Discussions",      "approvals": "Decision Center",      "meetings": "Strategic Sessions",      "settings": "Portal Preferences",      "signOut": "Secure Exit",      "dashboard": "Command Center",      "recentProjects": "Active Campaigns",      "totalProjects": "Creative Portfolio",      "activeProjects": "Current Initiatives",      "viewAllProjects": "Explore Complete Portfolio",      "viewAll": "View Complete List",      "projectName": "Initiative Title",      "status": "Current Phase",      "startDate": "Initiative Launch",      "endDate": "Target Completion",      "viewDetails": "Explore Details",      "noProjects": "Your project roster will appear here once initiatives are underway",      "noApprovals": "No items currently require your review or approval",      "noMessages": "Your communication feed is currently clear",      "noMeetings": "Your calendar is clear of upcoming strategic sessions",      "review": "Review & Evaluate",      "reply": "Respond",      "videoCall": "Virtual Collaboration",      "inPerson": "Face-to-Face Session",      "phoneCall": "Voice Conference",      "unknown": "Custom Meeting Format",      "projectStatus": {        "planning": "Discovery & Strategy",        "in-progress": "Creative Development",        "review": "Client Evaluation",        "revisions": "Refinement Phase",        "approved": "Final Approval",        "completed": "Successfully Delivered"      }    },    "projects": {      "title": "Your Creative Portfolio",      "subtitle": "Track the evolution of your brand initiatives from concept to completion",      "active": "In Progress",      "completed": "Successfully Delivered",      "archived": "Past Campaigns",      "search": "Locate specific initiatives...",      "filters": {        "title": "Refine View",        "category": "Initiative Type",        "date": "Timeline",        "team": "Creative Team"      },      "status": {        "planning": "Strategic Foundation",        "inProgress": "Creative Execution",        "review": "Client Evaluation",        "revisions": "Refinement Process",        "approved": "Final Approval",        "completed": "Successfully Launched"      }    },    "assets": {      "title": "Brand Resource Center",      "subtitle": "Your centralized library of approved creative assets and marketing materials",      "images": "Visual Assets",      "videos": "Motion Content",      "documents": "Strategy Documents",      "brandAssets": "Brand Identity Components",      "uploadNew": "Contribute New Assets",      "search": "Find specific resources...",      "filters": {        "title": "Refine Assets",        "type": "Asset Category",        "project": "Related Campaign",        "date": "Creation Period"      },      "usage": {        "title": "Usage Guidelines",        "download": "Download for approved channels",        "share": "Share with authorized team members",        "restrict": "Confidentiality level"      }    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "message": "Message",
+      "subject": "Subject",
+      "projectType": "Project Type",
+      "budget": "Budget Range",
+      "timeline": "Project Timeline",
+      "howDidYouHear": "How did you hear about us?",
+      "submitSuccess": "Your message has been sent successfully.",
+      "submitError": "There was an error sending your message. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "hours": "Business Hours",
+      "weekdays": "Monday - Friday: 9am - 6pm",
+      "weekends": "Saturday - Sunday: Closed"
+    },
+    "locations": {
+      "headquarters": "Headquarters",
+      "casablanca": "Casablanca",
+      "rabat": "Rabat",
+      "marrakech": "Marrakech"
+    }
+  },
+  "error": {
+    "404": {
+      "title": "Page Not Found",
+      "message": "The page you are looking for does not exist.",
+      "button": "Go to Homepage"
+    },
+    "500": {
+      "title": "Server Error",
+      "message": "Something went wrong on our server.",
+      "button": "Try Again"
+    },
+    "offline": {
+      "title": "You're Offline",
+      "message": "Please check your internet connection.",
+      "button": "Retry Connection"
+    },
+    "forbidden": {
+      "title": "Access Denied",
+      "message": "You don't have permission to access this page.",
+      "button": "Go Back"
+    }
+  },
+  "CaseStudy": {
+    "backToCaseStudies": "Back to Case Studies",
+    "relatedCaseStudies": "Related Case Studies",
+    "clientInfo": "Client Information",
+    "projectOverview": "Project Overview",
+    "client": "Client",
+    "industry": "Industry",
+    "services": "Services",
+    "date": "Date",
+    "viewWebsite": "View Website",
+    "viewProject": "View Project",
+    "exploreCase": "Explore Case",
+    "contactUs": "Contact Us",
+    "impactNumbers": "Impact Numbers",
+    "measurableResults": "Measurable Results",
+    "visualGallery": "Visual Gallery",
+    "campaignShowcase": "Campaign Showcase",
+    "galleryDescription": "Explore the visual elements of our award-winning Nissan campaign",
+    "challengesSolutions": "Challenges & Solutions",
+    "theChallenge": "The Challenge",
+    "theSolution": "The Solution",
+    "testimonialHeading": "Client Testimonial",
+    "recognition": "Recognition",
+    "awardWinning": "Award-Winning Campaign",
+    "engagementIncrease": "Engagement Increase",
+    "impressions": "Impressions",
+    "salesIncrease": "Sales Increase"
+  },
+    "Home": {    "pageTitle": "Genius Ad District - Creative Excellence in Advertising and Marketing",    "pageDescription": "Transform your brand with Genius Ad District's creative solutions. Our expertise combining strategy, design, and innovation propels your communication to excellence.",    "hero": {      "title": "THE AGENCY THAT TRANSFORMS YOUR VISION INTO IMPACT",      "subtitle": "Genius Ad District orchestrates creative strategy and cutting-edge technology to create memorable brand experiences. Redefine the standards of your communication.",      "primaryCta": "Start Your Project",      "secondaryCta": "Explore Our Universe"    },    "tools": {      "title": "THE GENIUS CREATIVE ECOSYSTEM",      "clientPortal": "Secure client portal to track your projects in real-time",      "componentsGenerator": "Interactive Design Generator",      "componentsGeneratorDesc": "Creation of impactful designs assisted by artificial intelligence",      "caseStudies": "Discover our success stories and their concrete business impact",      "gallery": "Visual immersion in our portfolio of distinctive creations"    },    "mcp": {      "title": "INNOVATION AT THE HEART OF OUR APPROACH",      "description": "Genius Ad District integrates the Model Context Protocol (MCP) to push the boundaries of creativity. This exclusive technology allows us to generate cutting-edge visual concepts, perfectly aligned with your brand identity.",      "feature1": "Innovative designs generated by advanced artificial intelligence",      "feature2": "Optimization of your brand assets for maximum impact",      "feature3": "Impeccable visual consistency across all your media",      "cta": "Discover Our Design Generator"    }
+  },
+  "Auth": {
+    "Login": {
+      "pageTitle": "Login - Genius Ad District",
+      "pageDescription": "Sign in to your Genius Ad District account to access your advertising campaigns and analytics.",
+      "welcomeBack": "Welcome back",
+      "signInToContinue": "Sign in to continue to Genius Ad District",
+      "needHelp": "Need help?",
+      "contactSupport": "Contact support",
+      "allRightsReserved": "All rights reserved"
+    }
+  },
+  "Tools": {
+    "ComponentGenerator": {
+      "title": "UI Component Generator",
+      "description": "Create beautiful UI components that follow Genius Ad District's design system",
+      "poweredBy": "Powered by",
+      "howItWorks": {
+        "title": "How It Works",
+        "description": "The UI Component Generator uses the 21st-dev/magic MCP server to create beautiful, consistent components that match your design system.",
+        "step1": {
+          "title": "Configure",
+          "description": "Select the component type and provide a descriptive name"
+        },
+        "step2": {
+          "title": "Generate",
+          "description": "Our AI generates a component based on your specifications"
+        },
+        "step3": {
+          "title": "Customize",
+          "description": "Copy the code and customize it to exactly meet your needs"
+        }
+      },
+      "learnMore": "Learn more about 21st-dev/magic"
+    },
+    "UIShowcase": {
+      "title": "UI Component Showcase",
+      "description": "Explore our library of Apple-inspired UI components",
+      "subtitle": "Discover our design system with sophisticated interactions"
+    }
+  },
+  "Expertises": {
+    "Meta": {
+      "title": "Expertise | Genius Ad District",
+      "description": "Discover our range of creative expertise to transform your brand. From strategic branding to digital marketing, our team of experts is here to support you.",
+      "ogTitle": "Creative Expertise | Genius Ad District",
+      "ogDescription": "Explore how our distinctive approach and varied expertise can redefine your market presence."
+    },
+    "hero": {
+      "title": "CREATIVE EXPERTISE",
+      "subtitle": "Transform your vision into reality with our unique know-how",
+      "cta": "Discover our expertise",
+      "contactCta": "Contact us"
+    },
+    "intro": {
+      "title": "OUR EXPERTISE",
+      "subtitle": "Our expertise forms the foundation of our know-how and reflects the diversity of our skills. Thanks to a multidisciplinary approach, we are able to support our clients across their entire communication chain, from strategic design to operational implementation."
+    },
+    "Branding": {
+      "title": "Strategic Branding",
+      "description": "Branding is much more than just a logo: it's the very DNA of your brand. Our role is to create or strengthen your visual and verbal identity, in order to convey a distinctive and coherent positioning across all your communication materials.",
+      "intro": "Create a powerful brand identity that resonates with your target audience and differentiates your company from the competition.",
+      "services": [
+        {
+          "title": "Visual Identity",
+          "description": "Creation of logotypes, graphic charters, color schemes and typography."
+        },
+        {
+          "title": "Naming & Positioning",
+          "description": "Research and definition of brand, product or service names, in line with your values and your market."
+        },
+        {
+          "title": "Brand Content & Personal Branding",
+          "description": "Design of editorial content that carries your voice and enhances your personality or that of your leaders."
+        },
+        {
+          "title": "Brand Architecture",
+          "description": "Strategic organization of your brands, sub-brands and products to maximize their impact on the market."
+        }
+      ],
+      "conclusion": "We rely on our solid experience in 2D/3D design and strategic marketing to develop strong identities that foster brand loyalty and facilitate brand recognition.",
+      "cta": "Create your distinctive identity"
+    },
+    "Digital": {
+      "title": "Digital & Web",
+      "description": "Digital is now essential for any company looking to grow and interact with its audience. We develop complete online ecosystems, combining creativity and technical performance.",
+      "intro": "Establish a powerful digital presence that engages your audience and drives business growth.",
+      "services": [
+        {
+          "title": "Websites",
+          "description": "Showcase sites, e-commerce, custom platforms with optimized user experience."
+        },
+        {
+          "title": "Applications & Mini-games",
+          "description": "Development of fun and interactive tools to strengthen customer engagement."
+        },
+        {
+          "title": "Social Media & Community Management",
+          "description": "Management of your presence on social networks, creation of targeted campaigns and community engagement."
+        },
+        {
+          "title": "Newsletter & Email Marketing",
+          "description": "Design of templates and optimized content to retain your contact base and generate traffic."
+        },
+        {
+          "title": "Content Marketing",
+          "description": "Strategy and production of engaging digital content that attracts, converts and retains your audience."
+        }
+      ],
+      "conclusion": "Our approach is to offer ergonomic and scalable solutions, while providing strategic support (SEO, performance analysis...) to maximize your return on investment.",
+      "cta": "Boost your digital presence"
+    },
+    "Evenementiel": {
+      "title": "Events",
+      "description": "Creating emotion, making an impression and unifying an audience: events are a powerful lever to strengthen brand awareness and image.",
+      "intro": "Transform your ideas into memorable experiences that create a strong emotional connection with your audience.",
+      "services": [
+        {
+          "title": "Corporate & Public Events",
+          "description": "Organization of conventions, product launches, festive or cultural events."
+        },
+        {
+          "title": "Roadshows & Activations",
+          "description": "We deploy your concepts in the field, in strategic locations, to meet your targets."
+        },
+        {
+          "title": "E-Sports & Gaming",
+          "description": "Design and broadcast of tournaments and competitions online or in person, in line with gaming trends."
+        },
+        {
+          "title": "Logistics & Production",
+          "description": "Comprehensive management, from design to technical coordination and deployment, including team management and implementation of interactive systems."
+        },
+        {
+          "title": "Hybrid Events",
+          "description": "Creation of experiences that combine the best of in-person and virtual for maximum impact and extended reach."
+        }
+      ],
+      "conclusion": "Our expertise is based on years of experience, specialized teams and a network of trusted partners, ensuring an unforgettable experience for your audiences.",
+      "cta": "Create unforgettable moments"
+    },
+    "Production": {
+      "title": "Production & Printing",
+      "description": "Our production workshop is a major asset for controlling the chain from A to Z and guaranteeing optimal quality.",
+      "intro": "Bring your ideas to life with premium production and printing solutions that showcase your brand's excellence.",
+      "services": [
+        {
+          "title": "Printing",
+          "description": "Digital, offset, large format, advertising media and promotional items."
+        },
+        {
+          "title": "Custom Manufacturing",
+          "description": "Design and assembly of POS (Point of Sale) elements, packaging, signs, stands and temporary furniture."
+        },
+        {
+          "title": "Customization & Finishes",
+          "description": "Gold foiling, embossing, spot varnish, laser cutting... A wide range of techniques to enhance each creation."
+        },
+        {
+          "title": "Quality & Innovation",
+          "description": "Thanks to cutting-edge equipment and rigorous quality control, we ensure the reliability and durability of your materials."
+        },
+        {
+          "title": "Eco-friendly Production",
+          "description": "Environmentally responsible printing and manufacturing solutions, with recycled materials and sustainable processes."
+        }
+      ],
+      "conclusion": "This in-house mastery allows us to meet your deadlines, remain competitive and offer customized solutions adapted to your budget.",
+      "cta": "Bring your projects to life"
+    },
+    "Marketing": {
+      "title": "Marketing & Strategy",
+      "description": "We develop comprehensive marketing strategies to increase your visibility, grow your audience and generate qualified leads.",
+      "intro": "Develop a coherent and effective marketing strategy that aligns your business objectives with the expectations of your audience.",
+      "services": [
+        {
+          "title": "Audit & Analysis",
+          "description": "Study of your market, competitive intelligence, definition of clear and measurable objectives."
+        },
+        {
+          "title": "Communication Strategy",
+          "description": "Media planning, targeting, key messaging and storytelling."
+        },
+        {
+          "title": "Digital Marketing",
+          "description": "Acquisition campaigns (SEO, SEM, social ads), marketing automation, email marketing."
+        },
+        {
+          "title": "Brand & Product Management",
+          "description": "Launch of new product lines, promotion of existing products, customer relationship management and improvement of user experience."
+        },
+        {
+          "title": "Marketing Analytics",
+          "description": "Data analysis and reporting to measure campaign effectiveness and optimize marketing performance."
+        }
+      ],
+      "conclusion": "Our goal is to put at your service a global vision, supported by proven tools and methods, in order to maximize the impact of each of your actions.",
+      "cta": "Optimize your strategy"
+    },
+    "stats": {
+      "title": "EXPERTISE IN NUMBERS",
+      "subtitle": "Concrete results that speak for themselves",
+      "stats": [
+        {
+          "number": "500+",
+          "label": "Projects completed",
+          "description": "More than 500 creative projects successfully carried out for clients from all horizons."
+        },
+        {
+          "number": "98%",
+          "label": "Satisfaction rate",
+          "description": "Operational excellence that translates into an exceptional level of satisfaction."
+        },
+        {
+          "number": "10+",
+          "label": "Years of expertise",
+          "description": "A decade of innovation and creative excellence at your service."
+        },
+        {
+          "number": "25+",
+          "label": "Dedicated experts",
+          "description": "A multidisciplinary team of passionate professionals."
+        }
+      ]
+    },
+    "process": {
+      "title": "OUR METHODOLOGY",
+      "subtitle": "A structured approach for guaranteed results",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Analysis & Discovery",
+          "description": "Understanding your universe, your challenges and your objectives to establish a precise roadmap."
+        },
+        {
+          "number": "02",
+          "title": "Strategy & Design",
+          "description": "Developing a creative and strategic approach aligned with your ambitions."
+        },
+        {
+          "number": "03",
+          "title": "Production & Implementation",
+          "description": "Meticulous execution with a constant concern for quality and detail."
+        },
+        {
+          "number": "04",
+          "title": "Analysis & Optimization",
+          "description": "Performance measurement and adjustments to maximize long-term impact."
+        }
+      ]
+    },
+    "cta": {
+      "title": "READY TO TRANSFORM YOUR BRAND?",
+      "subtitle": "Let's discuss your projects and how our expertise can help you achieve your goals.",
+      "button": "START YOUR PROJECT"
+    }
+  },
+  "Solutions": {
+    "Meta": {
+      "title": "Solutions | Genius Ad District",
+      "description": "Discover our strategic solutions to meet your communication challenges. From brand activation to media campaigns, we guide you toward excellence.",
+      "ogTitle": "Innovative Solutions | Genius Ad District",
+      "ogDescription": "Explore how our tailored solutions can transform your communication and generate lasting impact on your audience."
+    },
+    "hero": {
+      "title": "STRATEGIC SOLUTIONS",
+      "subtitle": "Innovative approaches to meet your business challenges",
+      "cta": "Discover our solutions",
+      "contactCta": "Discuss your project"
+    },
+    "intro": {
+      "title": "OUR SOLUTIONS",
+      "subtitle": "Beyond traditional services, Genius Ad District has developed comprehensive solutions adapted to the specific challenges of modern brands. These integrated approaches combine technical expertise, creative innovation, and proven methodology to achieve your business objectives."
+    },
+    "BrandActivation": {
+      "title": "Brand Activation",
+      "description": "Bring your brand to life through memorable experiences that create a strong emotional connection with your target audience.",
+      "intro": "Brand activation is the key to transforming your audience into an engaged community around your values and promise.",
+      "services": [
+        {
+          "title": "Experiential Events",
+          "description": "Creation of immersive experiences that allow the public to live your brand values rather than simply observing them."
+        },
+        {
+          "title": "Ambassador Programs",
+          "description": "Development and management of ambassador networks that authentically amplify your message within their communities."
+        },
+        {
+          "title": "Guerrilla Marketing",
+          "description": "Unconventional marketing actions that generate buzz and virality in urban or digital spaces."
+        },
+        {
+          "title": "Experiential Storytelling",
+          "description": "Creation of immersive narratives that make your audience the protagonists of your brand story."
+        },
+        {
+          "title": "Strategic Sampling",
+          "description": "Distribution of samples in optimized contexts to maximize the impact and relevance of the product experience."
+        }
+      ],
+      "process": {
+        "title": "Our approach",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Behavioral Analysis",
+            "description": "In-depth study of your target's motivations and behaviors to identify the most relevant activation levers."
+          },
+          {
+            "number": "02",
+            "title": "Experiential Design",
+            "description": "Creation of an activation concept that translates your values into sensory and emotional experiences."
+          },
+          {
+            "number": "03",
+            "title": "Multichannel Orchestration",
+            "description": "Coordinated deployment across physical and digital channels for maximum amplification."
+          },
+          {
+            "number": "04",
+            "title": "Impact Analysis",
+            "description": "Precise measurement of engagement, conversion, and brand adhesion KPIs."
+          }
+        ]
+      },
+      "caseStudy": {
+        "title": "COCA-COLA SUMMER EXPERIENCE",
+        "description": "For the summer season, we transformed 5 Moroccan beaches into Coca-Cola territories with interactive installations combining refreshment, music, and sharing. The 'Refresh & Connect' concept generated more than 80,000 direct interactions and 2.3 million impressions on social networks thanks to user-generated content. The ambassador program involved 25 local influencers who authentically amplified the experience beyond the physical sites."
+      },
+      "conclusion": "A successful brand activation transforms your marketing message into a memorable experience, creating a lasting emotional connection that transcends simple commercial transactions.",
+      "cta": "Activate your brand"
+    },
+    "Roadshow": {
+      "title": "Roadshow",
+      "description": "Travel across territories to meet your audience with impactful and personalized mobile brand experiences.",
+      "intro": "Roadshows are the ideal solution for deploying your message on a large scale while maintaining the impact of a local, personalized experience.",
+      "services": [
+        {
+          "title": "Mobile Experience Design",
+          "description": "Creation of modular touring devices that adapt to different environments while maintaining consistency of experience."
+        },
+        {
+          "title": "Promotional Tours",
+          "description": "Organization of national or regional tours to present your products or services with maximum impact."
+        },
+        {
+          "title": "Mobile Showrooms",
+          "description": "Design and deployment of traveling exhibition spaces that transform each stop into a mini-flagship for your brand."
+        },
+        {
+          "title": "Traveling Event Logistics",
+          "description": "Complete management of complex multi-site event logistics with consistent execution quality."
+        },
+        {
+          "title": "Multi-site Retail Activation",
+          "description": "Synchronized deployment of consistent experiences across multiple retail locations or shopping centers."
+        }
+      ],
+      "process": {
+        "title": "Our methodology",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Strategic Mapping",
+            "description": "Geomarketing analysis to identify optimal locations, dates, and formats for each roadshow stop."
+          },
+          {
+            "number": "02",
+            "title": "Scalable Design",
+            "description": "Development of a modular concept that adapts to different configurations without compromising the experience."
+          },
+          {
+            "number": "03",
+            "title": "Precise Logistics",
+            "description": "Planning and execution of meticulous logistics for smooth deployment throughout the journey."
+          },
+          {
+            "number": "04",
+            "title": "Local Animation",
+            "description": "Training and coordination of field teams for flawless execution adapted to local specificities."
+          }
+        ]
+      },
+      "caseStudy": {
+        "title": "ORANGE DIGITAL TOUR",
+        "description": "To democratize its digital services in regions far from major cities, Orange entrusted us with organizing a roadshow covering 18 Moroccan cities in 45 days. Our setup combined a 200m² high-tech mobile showroom with practical workshop areas and personalized consultation spaces. The tour welcomed more than 45,000 visitors and generated a 28% increase in subscriptions to new digital services in the visited regions. The educational dimension of the roadshow also trained more than 12,000 people in the advanced use of Orange services."
+      },
+      "conclusion": "A well-designed roadshow transforms geographical constraints into opportunities, allowing you to finely adapt your message to local particularities while maintaining a global brand consistency.",
+      "cta": "Plan your roadshow"
+    },
+    "SpaceDesign": {
+      "title": "Stand & Space Design",
+      "description": "Create physical environments that embody your identity and transform each interaction into a memorable experience.",
+      "intro": "Space design is the art of materializing your brand's DNA into three-dimensional environments that engage all your audience's senses.",
+      "services": [
+        {
+          "title": "Exhibition Stands",
+          "description": "Design and production of stands that capture attention and transform your presence at trade shows into a decisive competitive advantage."
+        },
+        {
+          "title": "Pop-up Stores",
+          "description": "Creation of ephemeral commercial spaces that generate exclusivity and urgency around your offer."
+        },
+        {
+          "title": "Retail Experiences",
+          "description": "Transformation of points of sale into experiential destinations that stimulate engagement and conversions."
+        },
+        {
+          "title": "Corporate Showrooms",
+          "description": "Design of presentation spaces that enhance your offer and strengthen your institutional credibility."
+        },
+        {
+          "title": "Event Scenography",
+          "description": "Creation of temporary immersive universes that amplify the emotional impact of your events."
+        }
+      ],
+      "process": {
+        "title": "Our process",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Strategic Brief",
+            "description": "Precise definition of business objectives, technical constraints, and desired experiential aspects."
+          },
+          {
+            "number": "02",
+            "title": "Creative Design",
+            "description": "Development of a unique spatial concept that reflects your identity and optimizes the visitor journey."
+          },
+          {
+            "number": "03",
+            "title": "Prototyping & Visualization",
+            "description": "Creation of 3D models and virtual experiences to validate and refine the concept."
+          },
+          {
+            "number": "04",
+            "title": "Production & Installation",
+            "description": "Custom manufacturing and installation with meticulous attention to detail and finish."
+          }
+        ]
+      },
+      "caseStudy": {
+        "title": "RENAULT TALISMAN STAND",
+        "description": "For the exclusive launch of the Renault Talisman in Morocco, we designed a 450m² stand merging contemporary luxury and immersive technology. The visitor journey naturally guided participants through themed areas progressively revealing the vehicle's assets, culminating in an interactive space where visitors could customize their ideal model. A 270° holographic theater presented the technical characteristics in a spectacular way. The stand generated 43% higher traffic compared to the show average and contributed to 126 firm orders during the event."
+      },
+      "conclusion": "A well-designed space doesn't just house your brand, it embodies and extends it into the physical world, transforming every square meter into an opportunity for memorable engagement.",
+      "cta": "Imagine your space"
+    },
+    "ESport": {
+      "title": "E-Sport",
+      "description": "Integrate your brand into the exciting world of competitive gaming to authentically connect with digital communities.",
+      "intro": "E-sports represent a unique opportunity for engagement with a young, passionate, and hyper-connected audience, provided you enter with an authentic and creative approach.",
+      "services": [
+        {
+          "title": "Tournament Organization",
+          "description": "Design and production of e-sports competitions, from local tournaments to national multi-game events."
+        },
+        {
+          "title": "Strategic Sponsorship",
+          "description": "Identification and activation of relevant partnerships with existing teams, players, and competitions."
+        },
+        {
+          "title": "Gaming Content Creation",
+          "description": "Production of content specific to the format and codes of gaming and e-sports culture."
+        },
+        {
+          "title": "In-Game Brand Integration",
+          "description": "Development of creative activations that naturally integrate your brand into the gaming experience."
+        },
+        {
+          "title": "Hybrid Events",
+          "description": "Organization of events that combine online competition and physical experience to maximize reach and engagement."
+        }
+      ],
+      "process": {
+        "title": "Our methodology",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Fit Analysis",
+            "description": "Evaluation of the relevance between your brand objectives and the different competitive gaming universes."
+          },
+          {
+            "number": "02",
+            "title": "Engagement Strategy",
+            "description": "Development of an approach that respects the authenticity of e-sports culture while achieving your marketing objectives."
+          },
+          {
+            "number": "03",
+            "title": "Specialized Production",
+            "description": "Deployment with a team expert in the codes and technical requirements specific to e-sports."
+          },
+          {
+            "number": "04",
+            "title": "Multichannel Amplification",
+            "description": "Maximization of impact via streaming platforms, social networks, and specialized communities."
+          }
+        ]
+      },
+      "caseStudy": {
+        "title": "INWI GAMING LEAGUE",
+        "description": "To position inwi as the reference operator for gamers, we developed Morocco's first professional e-sports league. Structured around 3 major games (League of Legends, FIFA, and Fortnite), the competition combined online qualifications and spectacular physical finals. The first season gathered more than 7,800 participants and generated 2.4 million views on live broadcasts. Beyond the numbers, the initiative created a sustainable ecosystem that enabled the emergence of the first Moroccan professional teams and strengthened inwi's image among 15-25 year-olds, with a 37% improvement in brand preference indicators in this target."
+      },
+      "conclusion": "E-sports isn't just another marketing channel; it's an ecosystem with its own codes and values. Succeeding there requires an authentic approach that brings real added value to the community.",
+      "cta": "Explore the e-sports universe"
+    },
+    "AdvertisingMedia": {
+      "title": "Advertising & Media",
+      "description": "Develop innovative media strategies that maximize the impact of your message and optimize your return on investment.",
+      "intro": "In a fragmented and constantly evolving media landscape, a strategic, data-driven, and creative approach is essential to stand out.",
+      "services": [
+        {
+          "title": "Strategic Media Planning",
+          "description": "Development of integrated media plans that optimize your presence on the most relevant channels for your target."
+        },
+        {
+          "title": "Advertising Creation",
+          "description": "Development of impactful creative concepts adapted to the specificities of each format and platform."
+        },
+        {
+          "title": "Programmatic Media Buying",
+          "description": "Optimization of your advertising investments through automated purchasing based on advanced algorithms."
+        },
+        {
+          "title": "Paid Social Media",
+          "description": "Sophisticated management of advertising campaigns on major social platforms."
+        },
+        {
+          "title": "Dynamic Display & DOOH",
+          "description": "Design and deployment of contextual and interactive digital display campaigns."
+        }
+      ],
+      "process": {
+        "title": "Our approach",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Analysis & Insights",
+            "description": "In-depth study of your market, audience, and competition to identify strategic opportunities."
+          },
+          {
+            "number": "02",
+            "title": "Integrated Media Strategy",
+            "description": "Development of an optimal media mix combining traditional and digital approaches."
+          },
+          {
+            "number": "03",
+            "title": "Adapted Creation",
+            "description": "Development of advertising content optimized for each channel while maintaining global consistency."
+          },
+          {
+            "number": "04",
+            "title": "Continuous Optimization",
+            "description": "Real-time adjustment of campaigns based on performance analysis."
+          }
+        ]
+      },
+      "caseStudy": {
+        "title": "CIH BANK ONLINE LAUNCH CAMPAIGN",
+        "description": "For the launch of CIH Bank's digital platform, we developed an omnichannel media strategy combining massive presence and precise targeting. Our approach integrated digital urban displays with contextual content, synchronized branding of major Moroccan information sites, and ultra-targeted programmatic campaigns based on financial behaviors. The campaign generated 12.4 million qualified impressions, an engagement rate 340% higher than industry benchmarks, and more than 40,000 online account openings in the first two months, exceeding the initial target by 127%."
+      },
+      "conclusion": "An effective media strategy today goes beyond buying space to create a coherent ecosystem where each touchpoint reinforces the impact of others, resulting in a memorable and actionable presence.",
+      "cta": "Optimize your media strategy"
+    },
+    "stats": {
+      "title": "OUR SOLUTIONS IN NUMBERS",
+      "subtitle": "The measurable effectiveness of our approaches",
+      "stats": [
+        {
+          "number": "350+",
+          "label": "Projects deployed",
+          "description": "More than 350 strategic solutions successfully implemented for our clients."
+        },
+        {
+          "number": "32%",
+          "label": "Average engagement",
+          "description": "An engagement rate 32% higher than industry averages."
+        },
+        {
+          "number": "96%",
+          "label": "Client satisfaction",
+          "description": "Operational excellence recognized by our partners."
+        },
+        {
+          "number": "8+",
+          "label": "Months of impact",
+          "description": "The average duration of the measurable impact of our solutions."
+        }
+      ]
+    },
+    "cta": {
+      "title": "READY TO SOLVE YOUR COMMUNICATION CHALLENGES?",
+      "subtitle": "Let's discuss your objectives and how our solutions can help you achieve them.",
+      "button": "LET'S TALK ABOUT YOUR PROJECT"
+    }
+  },
+  "Subsidiary": {
+    "MPS": {
+      "title": "MPS - Production & Manufacturing",
+      "description": "At MPS, we transform creative concepts into impeccable material realizations.",
+      "hero": {
+        "title": "THE MATERIAL EXCELLENCE OF YOUR IDEAS",
+        "subtitle": "At MPS, we transform creative concepts into impeccable material realizations. Our production and manufacturing expertise makes the difference between a vision and its realization."
+      },
+      "cta": "EXPLORE OUR ACHIEVEMENTS",
+      "services": {
+        "title": "Our expertise",
+        "subtitle": "Excellence in production and manufacturing",
+        "feature1": {
+          "title": "PREMIUM MANUFACTURING AND CNC CUTTING",
+          "description": "Our workshop equipped with the most precise digital cutting machines brings your most demanding projects to life. From CNC cutting to precision machining, we master the manufacturing techniques that allow us to realize all your ideas, even the most ambitious ones. Our rigorous production process guarantees results that consistently exceed expectations, while respecting deadlines and budgets."
+        },
+        "feature2": {
+          "title": "LARGE FORMAT PRINTING AND SIGNAGE",
+          "description": "Our state-of-the-art printing facilities offer impeccable quality for all your visual media. Regardless of format or medium, we guarantee faithful and durable reproduction of your graphic creations. From micro-signage to monumental prints, our technical capabilities allow us to meet all your display and visual communication needs."
+        },
+        "feature3": {
+          "title": "EXHIBITION STANDS AND EVENT STRUCTURES",
+          "description": "MPS excels in the design and creation of custom stands and structures that make a lasting impression. From initial sketches to final assembly, we handle all production stages to deliver a finished product ready for use. Our integrated approach allows us to master every manufacturing detail, ensuring structures that are both aesthetic and functional, suitable for all types of events."
+        }
+      },
+      "caseStudy": {
+        "title": "SAMSUNG GALAXY UNPACKED MOROCCO STAND",
+        "description": "For the exclusive launch of the Galaxy S23 in Morocco, MPS designed and manufactured an immersive exhibition space combining complex modular structures and precision custom-machined elements. Our central installation – a 270° circular LED structure integrating 64 light points – required more than 350 hours of CNC machining and meticulous assembly work. Each element of the stand was produced in our workshops, from large-format printing of visuals to high-end finishes of touch counters. This achievement demonstrates our ability to produce premium environments that combine technical prowess and aesthetic excellence."
+      },
+      "microCta": {
+        "title": "BRING YOUR PROJECT TO LIFE",
+        "subtitle": "An extraordinary idea deserves exceptional manufacturing. Let's discuss it."
+      },
+      "Meta": {
+        "title": "MPS | Production & Manufacturing | Genius Ad District",
+        "description": "MPS transforms your creative concepts into impeccable material realizations through our expertise in premium manufacturing, large format printing and event structures.",
+        "ogTitle": "MPS - The material excellence of your ideas",
+        "ogDescription": "Discover how MPS brings your visions to life through our expertise in manufacturing, printing and premium event structures."
+      }
+    },
+    "LABRIGAD": {
+      "title": "LABRIG'AD - Deployment and Logistics",
+      "description": "LABRIG'AD deploys your projects with military precision and unparalleled flexibility.",
+      "hero": {
+        "title": "OPERATIONAL EXCELLENCE IN ACTION",
+        "subtitle": "LABRIG'AD deploys your projects with military precision and unparalleled flexibility. From concept to field reality, we are the craftsmen of your logistical success."
+      },
+      "cta": "DISCOVER OUR OPERATIONS",
+      "services": {
+        "title": "Our expertise",
+        "subtitle": "Excellence in deployment and logistics",
+        "feature1": {
+          "title": "PRECISION EVENT LOGISTICS",
+          "description": "LABRIG'AD orchestrates every logistical detail of your projects with exemplary rigor. Our experience allows us to anticipate operational challenges and provide effective solutions, even in the most demanding conditions. From flow management to field team coordination, our proven methodology ensures impeccable execution of each project, regardless of its scope."
+        },
+        "feature2": {
+          "title": "NATIONAL AND INTERNATIONAL DEPLOYMENT",
+          "description": "Our logistics network covers the entire Moroccan territory and extends internationally. This deployment capability allows us to ensure homogeneous implementation of your projects, whether it's a local activation or a multi-site campaign. Our rigorous organization and in-depth knowledge of the field make us the ideal partner for your most ambitious deployments."
+        },
+        "feature3": {
+          "title": "EQUIPMENT MANAGEMENT AND MAINTENANCE",
+          "description": "LABRIG'AD has a considerable equipment inventory constantly maintained according to the most demanding standards. This autonomy allows us to respond quickly to your needs without compromising quality. Our technical team also ensures preventive and corrective maintenance of your installations, guaranteeing their optimal operation throughout the life of your project."
+        }
+      },
+      "caseStudy": {
+        "title": "L'ORÉAL PROFESSIONNEL NATIONAL TOUR",
+        "description": "For the launch of the new L'Oréal Professionnel range, LABRIG'AD designed and simultaneously deployed 7 pop-up stores in Morocco's major cities. Our team met the challenge of an extremely tight schedule: 3 weeks of production and 48 hours of deployment for all installations. The precise logistics allowed training more than 500 hairdressers in 15 days while welcoming over 3,000 visitors. Strict adherence to the brand's international standards, combined with our operational responsiveness, made this operation a case study in large-scale premium deployment."
+      },
+      "microCta": {
+        "title": "PLAN YOUR DEPLOYMENT",
+        "subtitle": "Your vision deserves perfect implementation. Entrust your logistics to LABRIG'AD."
+      },
+      "Meta": {
+        "title": "LABRIG'AD | Deployment and Logistics | Genius Ad District",
+        "description": "LABRIG'AD deploys your projects with military precision and unparalleled logistics expertise to ensure impeccable field operations.",
+        "ogTitle": "LABRIG'AD - Operational excellence in action",
+        "ogDescription": "Discover how LABRIG'AD ensures the perfect deployment of your projects through our logistics expertise and operational precision."
+      }
+    },
+    "GAMIUS": {
+      "title": "GAMIUS - Gaming & Immersive Experiences",
+      "description": "GAMIUS transforms the power of gaming into unforgettable brand experiences.",
+      "hero": {
+        "title": "GAMING BECOMES YOUR BEST ASSET",
+        "subtitle": "GAMIUS transforms the power of gaming into unforgettable brand experiences. Enter a new dimension where interaction, enjoyment, and marketing impact merge."
+      },
+      "cta": "PLAY DIFFERENTLY",
+      "services": {
+        "title": "Our expertise",
+        "subtitle": "Gaming and immersive experiences",
+        "feature1": {
+          "title": "EXPERIENTIAL GAMING",
+          "description": "GAMIUS designs custom gaming experiences that transcend mere entertainment to become powerful engagement vectors. Our team combines gaming expertise and strategic vision to create activations that capture attention and generate memorable interactions with your brand. From casual gaming to professional e-sports experiences, we adapt our creations to your target audience and marketing objectives."
+        },
+        "feature2": {
+          "title": "VIRTUAL AND AUGMENTED REALITY",
+          "description": "We harness immersive technologies to create universes where your brand can express itself without limits. Our developers design VR/AR experiences that offer a new perspective on your product or service. These technologies become powerful educational, promotional, or experiential tools in our hands, radically transforming the relationship with your audience."
+        },
+        "feature3": {
+          "title": "STRATEGIC GAMIFICATION",
+          "description": "Gamification is a strategic approach that applies game mechanics to non-gaming contexts. GAMIUS excels in the art of infusing these principles into your marketing strategies, loyalty programs, or training. We transform ordinary experiences into engaging journeys that motivate your audiences to act, learn, and interact with enthusiasm."
+        }
+      },
+      "caseStudy": {
+        "title": "SPRITE GAME ARENA",
+        "description": "To strengthen Sprite's connection with Morocco's Gen Z, GAMIUS developed the \"Sprite Game Arena\" – a hybrid device combining national e-sports competition and gamified mobile experience. Participants could compete in person during regional qualifications while accumulating points via the dedicated app. This dual approach generated exceptional engagement: 87,000 app downloads in 2 weeks, over 1.3 million games played, and a 23% increase in sales during the campaign period. The final tournament, broadcast live on digital platforms, attracted more than 340,000 viewers – a record for a gaming event in Morocco."
+      },
+      "microCta": {
+        "title": "IMAGINE YOUR GAMING EXPERIENCE",
+        "subtitle": "Transform your communication into a memorable interactive experience."
+      },
+      "Meta": {
+        "title": "GAMIUS | Gaming & Immersive Experiences | Genius Ad District",
+        "description": "GAMIUS creates immersive gaming experiences, AR/VR solutions, and gamification strategies that transform brand engagement.",
+        "ogTitle": "GAMIUS - Gaming becomes your best asset",
+        "ogDescription": "Discover how GAMIUS creates gaming and immersive experiences that transform your communication into memorable interactions."
+      }
+    },
+    "MOUJELEELL": {
+      "title": "MOUJE & LEELL - Space & Interior Design",
+      "description": "Mouje & Leell shapes spaces that tell your story and embody your identity.",
+      "hero": {
+        "title": "SPACE AS LANGUAGE, DESIGN AS SIGNATURE",
+        "subtitle": "Mouje & Leell shapes spaces that tell your story and embody your identity. We create environments where aesthetics meet functionality in perfect harmony."
+      },
+      "cta": "EXPLORE OUR CREATIONS",
+      "services": {
+        "title": "Our expertise",
+        "subtitle": "Excellence in space and interior design",
+        "feature1": {
+          "title": "COMMERCIAL SPACE DESIGN",
+          "description": "We design commercial environments that transform sales spaces into immersive brand experiences. Our approach integrates your brand identity into every detail, creating visual coherence that strengthens your image and optimizes the customer experience. From concept stores to flagships, our designs combine distinctive aesthetics and commercial efficiency to create spaces that convert and build loyalty."
+        },
+        "feature2": {
+          "title": "PREMIUM INTERIOR DESIGN",
+          "description": "Mouje & Leell creates interiors that reflect the very essence of your brand or personality. Our team of designers works with a palette of noble materials and exceptional finishes to design unique and memorable spaces. We orchestrate each project down to the smallest detail, from architectural design to furniture selection, lighting, and final decorative touches."
+        },
+        "feature3": {
+          "title": "SCENOGRAPHY AND EPHEMERAL INSTALLATIONS",
+          "description": "The art of temporary staging requires a particular sensitivity that our team perfectly masters. We design ephemeral installations – stands, pop-up stores, event scenography – that maximize the impact of your presence, however brief. Our expertise combines conceptual creativity and technical feasibility to create spaces that impress and remain etched in memories long after their disappearance."
+        }
+      },
+      "caseStudy": {
+        "title": "NISSAN CASABLANCA FLAGSHIP",
+        "description": "To redefine the automotive customer experience in Morocco, Mouje & Leell designed the new Nissan flagship in Casablanca. Breaking with traditional dealership codes, our design integrates a fluid customer journey where immersive technologies and experiential zones harmonize in a contemporary architectural setting. Noble materials (polished concrete, crafted wood, brushed metal) contrast with integrated digital solutions that personalize the experience. This concept established a new benchmark in premium automotive retail, generating a 40% increase in time spent at the dealership and a measurable impact on high-end model sales."
+      },
+      "microCta": {
+        "title": "IMAGINE YOUR SPACE",
+        "subtitle": "Let's shape your vision and create spaces that reflect who you are."
+      },
+      "Meta": {
+        "title": "MOUJE & LEELL | Space & Interior Design | Genius Ad District",
+        "description": "Mouje & Leell shapes spaces that tell your story through premium interior design and distinctive commercial layouts.",
+        "ogTitle": "MOUJE & LEELL - Space as language, design as signature",
+        "ogDescription": "Discover how Mouje & Leell creates environments where aesthetics meet functionality to reflect your identity."
+      }
+    },
+    "GENIUS": {
+      "sections": {
+        "hero": {
+          "title": "COMMUNICATION AND PRODUCTION AGENCY",
+          "subtitle": "CORPORATE AND PUBLIC EVENTS · ALTERNATIVE MARKETING · ROADSHOW AND ACTIVATIONS",
+          "cta": "Discover our universe"
+        },
+        "tagline": {
+          "text": "Genius, it's not just a word"
+        },
+        "values": {
+          "title": "OUR VALUES",
+          "keywords": "EXPERTISE · TECHNOLOGY · INNOVATION · CREATIVITY · PASSION"
+        },
+        "group": {
+          "title": "THE GROUP",
+          "claim": "In short, what GENIUS creates, MPS produces and LABRIG'Ad deploys"
+        },
+        "ambition": {
+          "title": "OUR GREAT AMBITION",
+          "subtitle": "BECOMING THE QUALITY REFERENCE « 100% MADE IN MOROCCO » FOR MOROCCO AND AFRICA"
+        },
+        "spirit": {
+          "title": "OUR GUIDING PRINCIPLES",
+          "central": "SPIRIT",
+          "keywords": "Teams | Customization | Passion | Respect | Innovation | Technology"
+        },
+        "expertise": {
+          "title": "OUR EXPERTISE · MULTIDISCIPLINARY AGENCY"
+        },
+        "mindset": {
+          "title": "OUR MINDSET",
+          "subtitle": "COLLABORATING IN GOOD SPIRITS"
+        },
+        "achievements": {
+          "title": "SELECTED ACHIEVEMENTS FOR REFERENCE",
+          "cta": "View portfolio"
+        },
+        "caseNissan": {
+          "client": "Nissan",
+          "request": "700 m² Stand – Auto-Expo"
+        }
+      }
+    }
+  },
+  "Company": {
+    "Meta": {
+      "title": "Our History & Team | Genius Ad District",
+      "description": "Discover the unique history of Genius Ad District, our core values, and the talented team that has been turning challenges into success since 2015.",
+      "ogTitle": "Our History, Values & Team | Genius Ad District",
+      "ogDescription": "Meet the visionaries behind Genius Ad District and learn how our unique approach has revolutionized creative communication in Morocco and North Africa."
+    },
+    "hero": {
+      "title": "OUR STORY",
+      "subtitle": "A journey of innovation, creativity, and excellence since 2015",
+      "cta": "Meet our team"
+    },
+    "intro": {
+      "title": "OUR HERITAGE",
+      "description": "Genius Ad District was born from a bold vision: to reinvent the approach to creative communication in Morocco by bringing together exceptional talent around a shared passion for excellence and innovation. Our journey since 2015 is a testament to our unwavering commitment to this initial vision."
+    },
+    "history": {
+      "title": "OUR JOURNEY",
+      "subtitle": "Key milestones in our growth",
+      "milestones": [
+        {
+          "year": "2015",
+          "title": "Foundation",
+          "description": "Genius Ad District was established in Casablanca by a collective of four visionary advertising and design professionals determined to bring a fresh approach to the Moroccan market."
+        },
+        {
+          "year": "2016",
+          "title": "First Successes",
+          "description": "Winning our first major accounts in the automotive and telecom sectors, quickly establishing our reputation for creative excellence and impeccable execution."
+        },
+        {
+          "year": "2017",
+          "title": "Birth of MPS",
+          "description": "Launch of our first subsidiary, MPS (Marketing Production Services), specializing in premium production and manufacturing to meet growing demand for integrated solutions."
+        },
+        {
+          "year": "2018",
+          "title": "Regional Expansion",
+          "description": "Opening of our offices in Rabat and first collaborations with international clients, marking the beginning of our expansion beyond Casablanca."
+        },
+        {
+          "year": "2019",
+          "title": "Creation of LABRIG'Ad",
+          "description": "Launch of our second subsidiary dedicated to logistics deployment and field activations, enhancing our ability to manage national-scale projects."
+        },
+        {
+          "year": "2020",
+          "title": "Resilience and Innovation",
+          "description": "Facing pandemic challenges, we accelerated development of our digital capabilities and created innovative hybrid solutions for our clients."
+        },
+        {
+          "year": "2021",
+          "title": "Creation of GAMIUS",
+          "description": "Launch of GAMIUS, our subsidiary specializing in gaming and e-sports, anticipating the growing importance of these territories for brands."
+        },
+        {
+          "year": "2022",
+          "title": "Birth of Mouje-Leell",
+          "description": "Creation of our fourth subsidiary dedicated to space and interior design, completing our ecosystem of creative solutions."
+        },
+        {
+          "year": "2023",
+          "title": "International Recognition",
+          "description": "First international distinctions and expansion of our client portfolio to sub-Saharan Africa and Europe."
+        },
+        {
+          "year": "2024",
+          "title": "Technological Innovation",
+          "description": "Integration of the Model Context Protocol and development of proprietary solutions combining creativity and advanced artificial intelligence."
+        }
+      ]
+    },
+    "values": {
+      "title": "OUR VALUES",
+      "subtitle": "The principles that guide every action we take",
+      "intro": "Our values are not just words on a wall – they are the fundamental principles that guide our daily decisions and define our corporate culture.",
+      "values": [
+        {
+          "title": "EXCELLENCE",
+          "description": "We relentlessly pursue excellence in every aspect of our work, from strategic concept to the smallest finishing touch. This perpetual quest for quality is embedded in our DNA and reflected in every project we deliver."
+        },
+        {
+          "title": "INNOVATION",
+          "description": "Innovation is our driving force. We cultivate a spirit of constant exploration, pushing the boundaries of what's possible to create solutions that surprise, inspire, and transform. We embrace emerging technologies not as ends in themselves, but as tools in service of creativity."
+        },
+        {
+          "title": "INTEGRITY",
+          "description": "We believe lasting relationships are built on trust. Our commitment to honesty, transparency, and respecting our obligations is absolute, both to our clients and our collaborators and partners."
+        },
+        {
+          "title": "BOLDNESS",
+          "description": "We encourage calculated risk-taking and the desire to venture off the beaten path. We believe that truly transformative ideas often emerge at the frontier between comfort and the unknown."
+        },
+        {
+          "title": "COLLABORATION",
+          "description": "We firmly believe that diverse perspectives enrich our work. Collaboration is at the heart of our creative process, fostering the emergence of stronger and more innovative ideas than what an individual could conceive alone."
+        }
+      ]
+    },
+    "culture": {
+      "title": "OUR CULTURE",
+      "subtitle": "An environment that nurtures creativity and excellence",
+      "paragraphs": [
+        "At Genius Ad District, we cultivate a dynamic work environment where every voice matters and every talent can flourish. Our culture is deliberately built to stimulate innovation while preserving the well-being of our teams.",
+        "We believe that a positive and inspiring work atmosphere is essential to producing exceptional work. That's why we invest in stimulating physical spaces, flexible work practices, and an ongoing professional development program.",
+        "Intellectual curiosity is valued and encouraged. We regularly organize creative workshops, inspiration days, and knowledge-sharing sessions to keep our team at the forefront of trends and technologies.",
+        "This unique culture has allowed us to gather and retain some of the industry's most brilliant talents, creating a team whose passion and expertise are unmatched in the market."
+      ]
+    },
+    "team": {
+      "title": "OUR TEAM",
+      "subtitle": "The visionaries behind Genius Ad District",
+      "intro": "Our greatest strength lies in our team – a collective of passionate talents who are experts in their respective fields. These creative and strategic minds are the beating heart of Genius Ad District.",
+      "leadership": {
+        "title": "EXECUTIVE COMMITTEE",
+        "members": [
+          {
+            "name": "Mehdi Alaoui",
+            "position": "Founder & CEO",
+            "bio": "Visionary and strategist, Mehdi founded Genius Ad District after an international career in renowned agencies. His unique vision of strategic creativity has guided the company since its inception."
+          },
+          {
+            "name": "Sarah Benjelloun",
+            "position": "Creative Director",
+            "bio": "Internationally awarded for her work, Sarah brings a unique artistic sensibility and conceptual rigor that define Genius Ad District's creative excellence."
+          },
+          {
+            "name": "Karim Tazi",
+            "position": "Chief Operations Officer",
+            "bio": "Expert in complex project management, Karim ensures the impeccable execution of each initiative, guaranteeing that our creativity translates into tangible results."
+          },
+          {
+            "name": "Nadia El Fassi",
+            "position": "Strategy Director",
+            "bio": "With a unique background spanning strategy consulting and digital marketing, Nadia develops communication strategies that combine long-term vision and immediate effectiveness."
+          }
+        ]
+      },
+      "departments": [
+        {
+          "name": "Creative",
+          "description": "Our creative department brings together art directors, copywriters, UI/UX designers, and motion designers. This multidisciplinary team transforms communication challenges into memorable visual and narrative experiences.",
+          "count": "14 Creative Talents"
+        },
+        {
+          "name": "Strategy & Client",
+          "description": "Composed of strategists, planners, and project managers, this team is the interface between our clients and our creatives, transforming business objectives into inspiring briefs and ensuring the strategic alignment of our solutions.",
+          "count": "8 Experts"
+        },
+        {
+          "name": "Digital & Tech",
+          "description": "From full-stack developers to UX specialists and our data analytics experts, this team brings digital experiences to life and integrates advanced technologies into our projects.",
+          "count": "12 Innovators"
+        },
+        {
+          "name": "Production",
+          "description": "Our experts in print, audiovisual production, and manufacturing guarantee impeccable execution, respecting the highest quality standards while optimizing resources.",
+          "count": "10 Producers"
+        }
+      ],
+      "joinUs": {
+        "title": "JOIN THE TEAM",
+        "description": "We are always looking for exceptional talents who share our passion for strategic creativity and excellence. Discover our career opportunities and become an integral part of our adventure.",
+        "cta": "See our opportunities"
+      }
+    },
+    "testimonials": {
+      "title": "WHAT THEY SAY ABOUT US",
+      "subtitle": "Testimonials from those who trust us daily",
+      "testimonials": [
+        {
+          "quote": "The Genius Ad District team has this rare ability to combine strategic thinking and bold creativity. Every project with them is an inspiring adventure that always pushes us further.",
+          "author": "Marketing Director, Renault Morocco"
+        },
+        {
+          "quote": "Their deep understanding of our brand and their innovative approach have transformed our communication. They are more than providers, they are true strategic partners.",
+          "author": "CEO, inwi"
+        },
+        {
+          "quote": "What distinguishes Genius is their unwavering commitment to excellence at every stage of the process, from initial strategy to final execution. A trusted partner for the most ambitious projects.",
+          "author": "Communications Director, Orange"
+        }
+      ]
+    },
+    "csr": {
+      "title": "OUR COMMITMENT",
+      "subtitle": "Creativity and social responsibility",
+      "description": "We firmly believe that our creativity can and should be a positive force in society. That's why we dedicate a portion of our resources and talent each year to initiatives that contribute to the common good.",
+      "initiatives": [
+        {
+          "title": "Young Talents Program",
+          "description": "Mentoring and training initiative for young creatives from disadvantaged backgrounds, providing them access to education and opportunities in creative professions."
+        },
+        {
+          "title": "Genius Green",
+          "description": "Environmental commitment through responsible production practices and the development of communication solutions with low ecological impact."
+        },
+        {
+          "title": "Creative for Good",
+          "description": "Pro bono support for NGOs and associations in their awareness and fundraising campaigns."
+        }
+      ]
+    },
+    "cta": {
+      "title": "LET'S WRITE THE NEXT CHAPTER TOGETHER",
+      "subtitle": "Your ambition deserves a team that shares your vision and has the expertise to bring it to life.",
+      "button": "DISCUSS YOUR PROJECT"
+    }
+  },
+  "Contact": {
+    "Meta": {
+      "title": "Contact Us | Genius Ad District",
+      "description": "Get in touch with our team to discuss your creative and marketing projects. Genius Ad District offers innovative solutions tailored to your specific challenges.",
+      "ogTitle": "Contact Genius Ad District Creative Agency",
+      "ogDescription": "Reach out to Genius Ad District to transform your challenges into opportunities. Our team of experts is ready to propel your brand to new heights."
+    },
+    "hero": {
+      "title": "LET'S TALK ABOUT YOUR PROJECT",
+      "subtitle": "Every great achievement begins with a conversation",
+      "description": "Contact us to discuss your challenges, ambitions, and how we can help you bring them to life. Our team is ready to support you at every stage of your project."
+    },
+    "intro": {
+      "title": "HOW CAN WE HELP YOU?",
+      "options": [
+        {
+          "title": "Discuss a new project",
+          "description": "Do you have a creative or marketing challenge to tackle? We'd love to discuss how we can support you.",
+          "cta": "Start a project"
+        },
+        {
+          "title": "Join our team",
+          "description": "Passionate about creativity and innovation? Discover our career opportunities and join a dynamic team.",
+          "cta": "See our opportunities"
+        },
+        {
+          "title": "Request a presentation",
+          "description": "Discover our services, approach, and achievements during a personalized presentation with our experts.",
+          "cta": "Schedule a presentation"
+        },
+        {
+          "title": "Become a partner",
+          "description": "Interested in a strategic partnership? Let's explore possible synergies between our organizations.",
+          "cta": "Propose a partnership"
+        }
+      ]
+    },
+    "form": {
+      "title": "CONTACT FORM",
+      "subtitle": "Tell us about your project",
+      "fields": {
+        "name": {
+          "label": "Full name",
+          "placeholder": "Your first and last name",
+          "required": "Please enter your full name"
+        },
+        "company": {
+          "label": "Company",
+          "placeholder": "Your company name",
+          "required": "Please enter your company name"
+        },
+        "position": {
+          "label": "Position",
+          "placeholder": "Your job title or role",
+          "required": "Please enter your position"
+        },
+        "email": {
+          "label": "Business email",
+          "placeholder": "your.email@company.com",
+          "required": "Please enter your business email",
+          "invalid": "Please enter a valid email address"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "+212 5XX XXX XXX",
+          "required": "Please enter your phone number",
+          "invalid": "Please enter a valid phone number"
+        },
+        "subject": {
+          "label": "Subject",
+          "placeholder": "The subject of your message",
+          "required": "Please indicate a subject"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Briefly describe your project, objectives, and expectations...",
+          "required": "Please detail your request"
+        },
+        "budget": {
+          "label": "Estimated budget",
+          "placeholder": "Your approximate budget for this project",
+          "options": [
+            "Less than 100,000 MAD",
+            "100,000 - 250,000 MAD",
+            "250,000 - 500,000 MAD",
+            "500,000 - 1,000,000 MAD",
+            "More than 1,000,000 MAD",
+            "To be determined"
+          ]
+        },
+        "timeline": {
+          "label": "Desired timeline",
+          "placeholder": "When would you like to start/complete this project?",
+          "options": [
+            "Immediately",
+            "Within the next month",
+            "In 1-3 months",
+            "In 3-6 months",
+            "More than 6 months",
+            "Flexible"
+          ]
+        },
+        "service": {
+          "label": "Service(s) needed",
+          "placeholder": "Select the service(s) you're interested in",
+          "options": [
+            "Branding",
+            "Digital & Web",
+            "Events",
+            "Production",
+            "Marketing & Strategy",
+            "Other (specify in message)"
+          ]
+        },
+        "source": {
+          "label": "How did you hear about Genius Ad District?",
+          "placeholder": "Select an option",
+          "options": [
+            "Google search",
+            "Social media",
+            "Recommendation",
+            "Professional event",
+            "Press/Media",
+            "Other (specify in message)"
+          ]
+        },
+        "consent": {
+          "label": "By submitting this form, I agree that the information provided will be used to contact me regarding my request.",
+          "required": "Please accept the data processing terms"
+        },
+        "newsletter": {
+          "label": "I would like to receive news and updates from Genius Ad District"
+        }
+      },
+      "submit": "Send my request",
+      "success": {
+        "title": "Message sent successfully!",
+        "message": "Thank you for your message. A member of our team will contact you within 24 business hours."
+      },
+      "error": {
+        "title": "An error occurred",
+        "message": "We couldn't send your message. Please try again or contact us directly by phone."
+      }
+    },
+    "info": {
+      "title": "PRACTICAL INFORMATION",
+      "subtitle": "Multiple ways to reach us",
+      "headquarters": {
+        "title": "HEADQUARTERS",
+        "address": {
+          "street": "42, Boulevard Anfa",
+          "city": "20100 Casablanca",
+          "country": "Morocco"
+        },
+        "phone": "+212 522 123 456",
+        "email": "contact@geniusaddistrict.com",
+        "hours": "Mon - Fri: 9am - 6pm"
+      },
+      "locations": [
+        {
+          "city": "Rabat",
+          "address": {
+            "street": "15, Avenue Mohammed V",
+            "city": "10000 Rabat",
+            "country": "Morocco"
+          },
+          "phone": "+212 537 123 456",
+          "email": "rabat@geniusaddistrict.com"
+        },
+        {
+          "city": "Tangier",
+          "address": {
+            "street": "Tangier Free Zone, Block 43B",
+            "city": "90000 Tangier",
+            "country": "Morocco"
+          },
+          "phone": "+212 539 123 456",
+          "email": "tangier@geniusaddistrict.com"
+        }
+      ],
+      "social": {
+        "title": "FOLLOW US",
+        "links": [
+          {
+            "platform": "LinkedIn",
+            "url": "https://www.linkedin.com/company/genius-ad-district/"
+          },
+          {
+            "platform": "Instagram",
+            "url": "https://www.instagram.com/geniusaddistrict/"
+          },
+          {
+            "platform": "Facebook",
+            "url": "https://www.facebook.com/GeniusAdDistrict/"
+          },
+          {
+            "platform": "Twitter",
+            "url": "https://twitter.com/GeniusAdD/"
+          },
+          {
+            "platform": "Behance",
+            "url": "https://www.behance.net/geniusaddistrict/"
+          }
+        ]
+      }
+    },
+    "map": {
+      "title": "FIND US",
+      "viewLarger": "View larger map"
+    },
+    "faq": {
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "subtitle": "Answers to your most common questions",
+      "questions": [
+        {
+          "question": "What is the typical work process with Genius Ad District?",
+          "answer": "Our process begins with an in-depth discovery phase to understand your objectives and challenges. We then establish a customized strategy, followed by creation, production, and deployment phases. Throughout the project, we maintain transparent communication and rigorous performance monitoring."
+        },
+        {
+          "question": "How much do your services cost?",
+          "answer": "Our rates vary depending on the complexity, scope, and deadlines of each project. We create tailored proposals adapted to your specific needs and budget. Don't hesitate to contact us for a personalized estimate."
+        },
+        {
+          "question": "How long does it take to complete a project with you?",
+          "answer": "Timelines depend on the nature and scope of the project. A complete communication campaign can take 6-12 weeks, while a complex digital project may extend to 3-6 months. We always establish a detailed calendar at the beginning of our collaboration."
+        },
+        {
+          "question": "Do you work with international clients?",
+          "answer": "Absolutely! We have experience with international collaborations, and our team can work in French, English, and Arabic. We use communication and project management tools that facilitate remote collaboration."
+        },
+        {
+          "question": "How do you handle project confidentiality?",
+          "answer": "Confidentiality is paramount for us. All our contracts include strict confidentiality clauses, and we are ready to sign non-disclosure agreements (NDAs) even before initial discussions if necessary."
+        }
+      ],
+      "cta": {
+        "title": "Have more questions?",
+        "button": "Contact us directly"
+      }
+    },
+    "cta": {
+      "title": "READY TO TURN YOUR IDEAS INTO REALITY?",
+      "subtitle": "Our team of professionals is eager to tackle your creative challenges.",
+      "button": "START A PROJECT"
+    }
+  },
+  "SystemMessages": {
+    "success": {
+      "generic": {
+        "title": "Success!",
+        "message": "The operation was completed successfully."
+      },
+      "form": {
+        "title": "Form Submitted",
+        "message": "Your information has been successfully submitted. Thank you!",
+        "contact": "Thank you for reaching out. Our team will get back to you within 24 hours.",
+        "newsletter": "You've been successfully subscribed to our newsletter.",
+        "registration": "Your account has been created. Welcome to the Genius community!",
+        "passwordReset": "Password reset instructions have been sent to your email.",
+        "passwordChanged": "Your password has been successfully updated.",
+        "profileUpdated": "Your profile information has been updated successfully."
+      },
+      "content": {
+        "published": "Content successfully published.",
+        "saved": "Your changes have been saved.",
+        "uploaded": "Files have been successfully uploaded.",
+        "deleted": "Item has been removed successfully."
+      },
+      "project": {
+        "created": "Your project has been successfully created and is ready for kickoff.",
+        "updated": "Project details have been updated successfully.",
+        "approved": "The deliverable has received your approval and will move to the next phase.",
+        "completed": "Congratulations! Your project has been successfully completed."
+      },
+      "payment": {
+        "processed": "Your payment has been processed successfully.",
+        "invoiceSent": "Invoice has been sent to your registered email address.",
+        "refunded": "Your refund has been processed and will appear in your account within 3-5 business days."
+      }
+    },
+    "error": {
+      "generic": {
+        "title": "Something went wrong",
+        "message": "An unexpected error occurred. Please try again or contact support if the problem persists.",
+        "retryButton": "Try Again",
+        "supportButton": "Contact Support"
+      },
+      "validation": {
+        "required": "This field is required.",
+        "email": "Please enter a valid email address.",
+        "minLength": "This field must contain at least {min} characters.",
+        "maxLength": "This field cannot exceed {max} characters.",
+        "passwordMatch": "Passwords do not match.",
+        "invalidFormat": "The format of this field is invalid.",
+        "invalidPhone": "Please enter a valid phone number.",
+        "invalidURL": "Please enter a valid URL."
+      },
+      "form": {
+        "title": "Form Submission Error",
+        "message": "We couldn't submit your form due to some errors. Please check the highlighted fields and try again.",
+        "missingFields": "Please complete all required fields.",
+        "serverError": "We're experiencing server issues. Please try again later.",
+        "duplicateEmail": "An account with this email already exists."
+      },
+      "auth": {
+        "title": "Authentication Error",
+        "message": "There was an issue authenticating your request.",
+        "invalidCredentials": "The email or password you entered is incorrect.",
+        "accountLocked": "Your account has been temporarily locked due to multiple failed login attempts.",
+        "sessionExpired": "Your session has expired. Please log in again to continue.",
+        "unauthorized": "You don't have permission to access this resource."
+      },
+      "content": {
+        "notFound": "The requested content was not found.",
+        "failedToLoad": "Failed to load content. Please check your connection and try again.",
+        "uploadFailed": "File upload failed. Please check the file size and format.",
+        "deleteFailed": "Unable to delete the item. Please try again later."
+      },
+      "connection": {
+        "title": "Connection Issue",
+        "message": "We couldn't connect to our servers.",
+        "offline": "You appear to be offline. Please check your internet connection.",
+        "timeout": "The request timed out. Please try again.",
+        "serverDown": "Our servers are currently under maintenance. Please try again later."
+      },
+      "payment": {
+        "declined": "Your payment was declined. Please check your payment information and try again.",
+        "insufficientFunds": "The payment failed due to insufficient funds.",
+        "processingError": "An error occurred while processing your payment."
+      }
+    },
+    "notifications": {
+      "info": {
+        "title": "Information",
+        "message": "Here's some information you should know."
+      },
+      "warning": {
+        "title": "Warning",
+        "message": "Please pay attention to this important notice.",
+        "unsavedChanges": "You have unsaved changes that will be lost if you navigate away.",
+        "sessionExpiring": "Your session will expire in {minutes} minutes. Would you like to stay logged in?",
+        "browserSupport": "Some features may not work correctly in your current browser. For the best experience, please use a modern browser.",
+        "maintenanceScheduled": "System maintenance is scheduled for {date}. Some features may be temporarily unavailable."
+      },
+      "loading": {
+        "generic": "Loading...",
+        "content": "Loading content...",
+        "submitting": "Submitting your request...",
+        "processing": "Processing your request...",
+        "uploading": "Uploading files...",
+        "saving": "Saving your changes..."
+      },
+      "confirmation": {
+        "title": "Please Confirm",
+        "deleteItem": "Are you sure you want to delete this item? This action cannot be undone.",
+        "cancelSubscription": "Are you sure you want to cancel your subscription?",
+        "logout": "Are you sure you want to log out?",
+        "confirmButton": "Confirm",
+        "cancelButton": "Cancel"
+      }
+    }
+  },
+  "CulturalAdaptation": {
+    "guidelines": {
+      "title": "Transcultural Content Adaptation Guidelines",
+      "description": "Principles for adapting content across French and English markets while maintaining brand consistency and cultural relevance."
+    },
+    "principles": {
+      "toneOfVoice": {
+        "english": {
+          "title": "English Tone of Voice",
+          "description": "For English content, adopt a direct, confident, and pragmatic tone with emphasis on efficiency, innovation, and measurable results. Use more action verbs and concise sentence structures.",
+          "examples": [
+            "Transforming vision into strategy into results",
+            "Delivering measurable impact for forward-thinking brands",
+            "Elevate your brand with data-driven creative solutions"
+          ]
+        },
+        "french": {
+          "title": "French Tone of Voice",
+          "description": "For French content, embrace a more poetic and philosophical tone with emphasis on creative vision, cultural meaning, and emotional connection. Use richer descriptions and evocative language.",
+          "examples": [
+            "Orchestrer une symphonie créative pour votre marque",
+            "Sculpter l'identité visuelle qui exprime l'âme de votre entreprise",
+            "Éveiller les émotions à travers l'excellence créative"
+          ]
+        }
+      },
+      "imageContext": {
+        "title": "Visual Context Adaptation",
+        "description": "Adjust supporting imagery to reflect cultural differences in aesthetic preferences, social contexts, and visual metaphors.",
+        "morocco": "For Moroccan audiences, emphasize local cultural references, traditional patterns with modern twists, and imagery reflecting the Moroccan urban landscape.",
+        "international": "For international audiences, use more globally recognized visual language while maintaining North African creative uniqueness as a distinguishing element."
+      },
+      "valueEmphasis": {
+        "title": "Value Priority Adaptation",
+        "description": "Adapt content emphasis based on cultural value priorities",
+        "french": {
+          "title": "French/Moroccan Value Priorities",
+          "description": "Greater emphasis on artistic vision, creative excellence, cultural heritage, and emotional storytelling.",
+          "primaryValues": ["Créativité", "Excellence", "Innovation", "Heritage"]
+        },
+        "english": {
+          "title": "English/International Value Priorities",
+          "description": "Greater emphasis on efficiency, ROI, strategic thinking, and measurable outcomes.",
+          "primaryValues": ["Results", "Strategy", "Innovation", "Excellence"]
+        }
+      },
+      "marketReferences": {
+        "title": "Market-Specific References",
+        "description": "Adapt examples, case studies, and industry references based on target market relevance.",
+        "morocco": "For Moroccan audiences, emphasize local success stories and regional industry leadership.",
+        "international": "For international audiences, highlight cross-cultural capabilities and international brand experience."
+      },
+      "communicationStyle": {
+        "title": "Communication Style Adaptation",
+        "description": "Adapt the communication style to match cultural expectations",
+        "french": {
+          "title": "French Communication Style",
+          "description": "More context-rich, relationship-focused communication with elegant formality and artistic expression.",
+          "examples": [
+            "Nous vous invitons à découvrir notre vision créative...",
+            "C'est avec passion que nous transformons votre marque..."
+          ]
+        },
+        "english": {
+          "title": "English Communication Style",
+          "description": "More direct, action-focused communication with clear value propositions and tangible benefits.",
+          "examples": [
+            "Discover how we can transform your brand...",
+            "Our approach delivers measurable results through..."
+          ]
+        }
+      }
+    },
+    "contentTypes": {
+      "title": "Content Type Adaptation Guidelines",
+      "homepage": "Homepage should balance universal creative excellence with market-specific credibility signals.",
+      "services": "Service descriptions should emphasize artistic value in French and result-oriented benefits in English.",
+      "caseStudies": "Case studies should emphasize creative journey in French and measurable outcomes in English.",
+      "about": "Company narrative should emphasize cultural heritage in French and global expertise in English."
+    }
+  }
+} 

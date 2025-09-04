@@ -1,0 +1,24 @@
+'use client';
+
+import React from 'react';
+import { useParams } from 'next/navigation';
+import SubsidiaryHeader from '@/components/organisms/SubsidiaryHeader';
+import { Footer } from '@/components/organisms/Footer';
+import GameExperience from '@/components/organisms/GameExperience';
+
+export default function GamiusPage() {
+  const { locale } = useParams();
+  
+  return (
+    <div className="min-h-screen bg-black text-white" data-subsidiary="gamius">
+      <SubsidiaryHeader subsidiarySlug="gamius" transparent={true} />
+      
+      <main className="flex flex-col">
+        {/* Interactive Game Experience */}
+        <GameExperience redirectUrl="https://gamiusgroup.ma" />
+      </main>
+      
+      <Footer variant="subsidiary" subsidiaryColor="gamius" />
+    </div>
+  );
+}

@@ -1,0 +1,254 @@
+[2025-05-20T18:07:24.170Z] Starting @21st-dev/magic server with debug information...
+[2025-05-20T18:07:24.173Z] Using API_KEY: 51b3...caa3
+[2025-05-20T18:07:24.180Z] Debug script running. Check magic-debug.log for detailed output.
+[2025-05-20T18:07:25.296Z] STDERR: HTTP 7332: call onSocket 0 0
+[2025-05-20T18:07:25.296Z] STDERR: HTTP 7332: outgoing message end.
+[2025-05-20T18:07:25.321Z] STDERR: NET 7332: pipe false null
+[2025-05-20T18:07:25.323Z] STDERR: NET 7332: connect: find host registry.npmjs.org
+[2025-05-20T18:07:25.323Z] STDERR: NET 7332: connect: dns options { family: 0, hints: 1024 }
+NET 7332: connect: autodetecting
+[2025-05-20T18:07:25.326Z] STDERR: (node:7332) Warning: Setting the NODE_DEBUG environment variable to 'http' can expose sensitive data (such as passwords, tokens and authentication headers) in the resulting log.
+    at emitWarningIfNeeded (node:internal/util/debuglog:39:13)
+    at debuglogImpl (node:internal/util/debuglog:58:7)
+    at debug (node:internal/util/debuglog:85:13)
+    at logger (node:internal/util/debuglog:104:23)
+    at Agent.addRequest (node:_http_agent:286:5)
+    at Agent.addRequest (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\agent\lib\agents.js:201:18)
+    at new ClientRequest (node:_http_client:334:16)
+    at request (node:https:379:10)
+    at C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:98:17
+    at new Promise (<anonymous>)
+[2025-05-20T18:07:25.326Z] STDERR: STREAM 7332: read 0
+STREAM 7332: need readable false
+STREAM 7332: length less than watermark true
+STREAM 7332: do read
+NET 7332: _read - n 16384 isConnecting? true hasHandle? true
+NET 7332: _read wait for connection
+[2025-05-20T18:07:25.328Z] STDERR: NET 7332: connect/multiple: will try the following addresses [
+  { address: '104.16.31.34', family: 4 },
+  { address: '104.16.1.35', family: 4 },
+  { address: '104.16.24.34', family: 4 },
+  { address: '104.16.29.34', family: 4 },
+  { address: '104.16.0.35', family: 4 },
+  { address: '104.16.26.34', family: 4 },
+  { address: '104.16.27.34', family: 4 },
+  { address: '104.16.28.34', family: 4 },
+  { address: '104.16.3.35', family: 4 },
+  { address: '104.16.2.35', family: 4 },
+  { address: '104.16.25.34', family: 4 },
+  { address: '104.16.30.34', family: 4 }
+]
+[2025-05-20T18:07:25.328Z] STDERR: NET 7332: connect/multiple: attempting to connect to 104.16.31.34:443 (addressType: 4)
+[2025-05-20T18:07:25.329Z] STDERR: NET 7332: connect/multiple: setting the attempt timeout to 250 ms
+[2025-05-20T18:07:25.345Z] STDERR: NET 7332: connect/multiple: connection attempt to 104.16.31.34:443 completed with status 0
+[2025-05-20T18:07:25.346Z] STDERR: NET 7332: afterConnect
+NET 7332: _read - n 16384 isConnecting? false hasHandle? true
+NET 7332: Socket._handle.readStart
+[2025-05-20T18:07:25.346Z] STDERR: STREAM 7332: read 0
+STREAM 7332: need readable true
+STREAM 7332: length less than watermark true
+STREAM 7332: reading, ended or constructing false
+[2025-05-20T18:07:25.386Z] STDERR: HTTP 7332: createConnection registry.npmjs.org:443: [Object: null prototype] {
+  auth: '',
+  host: 'registry.npmjs.org',
+  hostname: 'registry.npmjs.org',
+  path: null,
+  port: 443,
+  protocol: 'https:',
+  method: 'GET',
+  headers: undefined,
+  agent: Agent {
+    _events: [Object: null prototype] {
+      free: [Function (anonymous)],
+      newListener: [Function: maybeEnableKeylog]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    options: [Object: null prototype] {
+      keepAliveMsecs: 1000,
+      maxSockets: 15,
+      maxTotalSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'fifo',
+      algorithms: undefined,
+      body: undefined,
+      cache: 'no-cache',
+      cachePath: 'C:\\Users\\MRCONNECT\\AppData\\Local\\npm-cache\\_cacache',
+      ca: null,
+      cert: null,
+      headers: undefined,
+      integrity: null,
+      key: null,
+      localAddress: null,
+      memoize: undefined,
+      method: 'GET',
+      retry: [Object],
+      rejectUnauthorized: true,
+      dns: [Object],
+      cacheAdditionalHeaders: [],
+      family: 0,
+      keepAlive: true,
+      hints: 1024,
+      lookup: [Function: lookup],
+      noDelay: true,
+      path: null
+    },
+    requests: [Object: null prototype] {},
+    sockets: [Object: null prototype] { 'registry.npmjs.org:443:': [] },
+    freeSockets: [Object: null prototype] {},
+    keepAliveMsecs: 1000,
+    keepAlive: true,
+    maxSockets: 15,
+    maxFreeSockets: 256,
+    scheduling: 'fifo',
+    maxTotalSockets: Infinity,
+    totalSocketCount: 0,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(AgentBaseInternalState)]: { currentSocket: [TLSSocket] }
+  },
+  ca: null,
+  cert: null,
+  ciphers: undefined,
+  clientCertEngine: undefined,
+  crl: undefined,
+  dhparam: undefined,
+  ecdhCurve: undefined,
+  family: 0,
+  honorCipherOrder: undefined,
+  key: null,
+  passphrase: undefined,
+  pfx: undefined,
+  rejectUnauthorized: true,
+  secureOptions: undefined,
+  secureProtocol: undefined,
+  servername: 'registry.npmjs.org',
+  sessionIdContext: undefined,
+  timeout: 300000,
+  _defaultAgent: Agent {
+    _events: [Object: null prototype] {
+      free: [Function (anonymous)],
+      newListener: [Function: maybeEnableKeylog]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    defaultPort: 443,
+    protocol: 'https:',
+    options: [Object: null prototype] {
+      keepAlive: true,
+      scheduling: 'lifo',
+      timeout: 5000,
+      noDelay: true,
+      path: null
+    },
+    requests: [Object: null prototype] {},
+    sockets: [Object: null prototype] {},
+    freeSockets: [Object: null prototype] {},
+    keepAliveMsecs: 1000,
+    keepAlive: true,
+    maxSockets: Infinity,
+    maxFreeSockets: 256,
+    scheduling: 'lifo',
+    maxTotalSockets: Infinity,
+    totalSocketCount: 0,
+    maxCachedSessions: 100,
+    _sessionCache: { map: {}, list: [] },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  keepAliveMsecs: 1000,
+  maxSockets: 15,
+  maxTotalSockets: Infinity,
+  maxFreeSockets: 256,
+  scheduling: 'fifo',
+  algorithms: undefined,
+  body: undefined,
+  cache: 'no-cache',
+  cachePath: 'C:\\Users\\MRCONNECT\\AppData\\Local\\npm-cache\\_cacache',
+  integrity: null,
+  localAddress: null,
+  memoize: undefined,
+  retry: { retries: 2, factor: 10, maxTimeout: 60000, minTimeout: 10000 },
+  dns: { ttl: 300000, lookup: [Function: lookup] },
+  cacheAdditionalHeaders: [],
+  keepAlive: true,
+  hints: 1024,
+  lookup: [Function: lookup],
+  noDelay: true,
+  _agentKey: 'registry.npmjs.org:443:'
+}
+[2025-05-20T18:07:25.387Z] STDERR: HTTP 7332: sockets registry.npmjs.org:443: 1 1
+STREAM 7332: resume
+[2025-05-20T18:07:25.388Z] STDERR: STREAM 7332: resume true
+[2025-05-20T18:07:25.388Z] STDERR: STREAM 7332: flow
+STREAM 7332: read undefined
+STREAM 7332: need readable true
+STREAM 7332: length less than watermark true
+STREAM 7332: reading, ended or constructing false
+STREAM 7332: onWriteComplete 0 undefined
+[2025-05-20T18:07:25.493Z] STDERR: STREAM 7332: push <Buffer 48 54 54 50 2f 31 2e 31 20 33 30 34 20 4e 6f 74 20 4d 6f 64 69 66 69 65 64 0d 0a 44 61 74 65 3a 20 54 75 65 2c 20 32 30 20 4d 61 79 20 32 30 32 35 20 ... 458 more bytes>
+[2025-05-20T18:07:25.494Z] STDERR: HTTP 7332: AGENT incoming response!
+[2025-05-20T18:07:25.495Z] STDERR: STREAM 7332: resume
+[2025-05-20T18:07:25.495Z] STDERR: STREAM 7332: push null
+[2025-05-20T18:07:25.496Z] STDERR: STREAM 7332: onEofChunk
+STREAM 7332: emitReadable
+STREAM 7332: emitReadable true
+STREAM 7332: resume false
+STREAM 7332: read 0
+STREAM 7332: endReadable
+[2025-05-20T18:07:25.496Z] STDERR: STREAM 7332: flow
+STREAM 7332: read undefined
+STREAM 7332: endReadable
+STREAM 7332: read 0
+STREAM 7332: endReadable
+STREAM 7332: emitReadable_
+STREAM 7332: flow
+STREAM 7332: read undefined
+STREAM 7332: endReadable
+STREAM 7332: maybeReadMore read 0
+STREAM 7332: read 0
+STREAM 7332: need readable true
+STREAM 7332: length less than watermark true
+STREAM 7332: do read
+NET 7332: _read - n 16384 isConnecting? false hasHandle? true
+STREAM 7332: endReadableNT
+[2025-05-20T18:07:25.496Z] STDERR: HTTP 7332: AGENT socket keep-alive
+[2025-05-20T18:07:25.497Z] STDERR: STREAM 7332: endReadableNT
+STREAM 7332: endReadableNT
+STREAM 7332: endReadableNT
+HTTP 7332: CLIENT socket onFree
+HTTP 7332: agent.on(free) registry.npmjs.org:443:
+[2025-05-20T18:07:25.497Z] STDERR: HTTP 7332: removeSocket registry.npmjs.org:443: writable: true
+[2025-05-20T18:07:25.639Z] STDOUT: {"jsonrpc":"2.0","method":"window/logMessage","params":{"type":3,"message":"Starting server v0.0.47 (PID: 37232)"}}
+[2025-05-20T18:07:25.640Z] STDERR: STREAM 37232: resume
+[2025-05-20T18:07:25.640Z] STDOUT: {"jsonrpc":"2.0","method":"window/logMessage","params":{"type":3,"message":"Server started (PID: 37232)"}}
+[2025-05-20T18:07:25.641Z] STDERR: STREAM 37232: resume false
+STREAM 37232: read 0
+STREAM 37232: need readable false
+[2025-05-20T18:07:25.641Z] STDERR: STREAM 37232: length less than watermark true
+STREAM 37232: do read
+NET 37232: _read - n 16384 isConnecting? false hasHandle? true
+NET 37232: Socket._handle.readStart
+STREAM 37232: flow
+STREAM 37232: read undefined
+STREAM 37232: need readable true
+STREAM 37232: length less than watermark true
+STREAM 37232: reading, ended or constructing false
+[2025-05-20T18:14:05.492Z] STDERR: STREAM 7332: push null
+STREAM 7332: onEofChunk
+[2025-05-20T18:14:05.493Z] STDERR: STREAM 7332: emitReadable_
+STREAM 7332: flow
+STREAM 7332: read undefined
+STREAM 7332: endReadable
+STREAM 7332: read 0
+STREAM 7332: endReadable
+STREAM 7332: endReadableNT
+STREAM 7332: endReadableNT
+NET 7332: _final: not ended, call shutdown()
+[2025-05-20T18:14:05.493Z] STDERR: NET 7332: afterShutdown destroyed=false
+NET 7332: destroy
+NET 7332: close
+NET 7332: close handle
+[2025-05-20T18:14:05.494Z] STDERR: NET 7332: emit close
+HTTP 7332: CLIENT socket onClose
+HTTP 7332: removeSocket registry.npmjs.org:443: writable: false

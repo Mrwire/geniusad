@@ -1,0 +1,19 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Enveloppe -->
+  <rect x="50" y="50" width="200" height="120" rx="10" fill="#333333" stroke="white" stroke-width="3"/>
+  
+  <!-- Ligne d'entête -->
+  <line x1="70" y1="80" x2="230" y2="80" stroke="white" stroke-width="2"/>
+  
+  <!-- Lignes de texte -->
+  <line x1="70" y1="110" x2="230" y2="110" stroke="white" stroke-width="2"/>
+  <line x1="70" y1="130" x2="170" y2="130" stroke="white" stroke-width="2"/>
+  
+  <!-- Bouton -->
+  <rect x="70" y="150" width="80" height="30" rx="15" fill="white"/>
+  <text x="85" y="170" font-family="Arial" font-size="12" fill="#333333">S'inscrire</text>
+  
+  <!-- Lignes de signal -->
+  <path d="M250 70 Q270 90 260 120" stroke="white" stroke-width="2" stroke-dasharray="4 2" fill="none"/>
+  <path d="M260 70 Q280 90 270 120" stroke="white" stroke-width="2" stroke-dasharray="4 2" fill="none"/>
+</svg> 

@@ -1,0 +1,184 @@
+/* 
+  styles.css - Fichier CSS global unifié pour Genius Ad District
+  ====================================================
+  Ce fichier regroupe tous les styles globaux et correctifs nécessaires
+  pour assurer un affichage cohérent sur l'ensemble du site.
+*/
+
+/* ===== RESET & BASE STYLES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+  background-color: #000;
+  color: #fff;
+  font-family: 'PP Neue Montreal', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== IMAGE HANDLING FIXES ===== */
+/* Ces corrections résolvent les problèmes avec Next.js Image et l'attribut fill */
+
+/* Règle de base pour toutes les images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Correction principale pour les images Next.js avec attribut fill */
+img[data-nimg="fill"] {
+  object-fit: cover !important;
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+  inset: 0 !important;
+  color: transparent !important;
+}
+
+/* Assurer que les conteneurs d'images sont bien positionnés */
+.img-container {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Classe spécifique pour les conteneurs d'images Next.js */
+.next-image-wrapper {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Formats d'image maintenus */
+.aspect-square {
+  aspect-ratio: 1 / 1 !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9 !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.aspect-ratio-3-4 {
+  aspect-ratio: 3 / 4 !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Conteneur d'image pour galerie */
+.image-container {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+/* ===== HEADER NAVIGATION ===== */
+/* Styles pour la navigation et le header */
+.header-nav-link {
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.header-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.header-nav-link:hover::after,
+.header-nav-link.active::after {
+  width: 100%;
+}
+
+/* ===== ANIMATION & EFFECTS ===== */
+/* Styles pour les animations et effets visuels */
+.gradient-text {
+  background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+/* Animation de fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* ===== LAMP EFFECT ===== */
+.lamp-highlight {
+  position: relative;
+}
+
+.lamp-highlight::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180%;
+  height: 120%;
+  background: radial-gradient(ellipse at center, rgba(0, 198, 255, 0.3) 0%, rgba(0, 114, 255, 0.1) 40%, rgba(0, 0, 0, 0) 80%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ===== RESPONSIVE UTILITIES ===== */
+/* Ces classes aident à gérer l'affichage sur différents appareils */
+@media (max-width: 768px) {
+  .mobile-menu {
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+  
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+}
+
+/* ===== CUSTOM COMPONENTS ===== */
+/* Floating Paths Background */
+.background-paths-container {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}

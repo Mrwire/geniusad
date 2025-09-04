@@ -1,0 +1,49 @@
+# Required Dependencies for Modern UI Components
+
+These packages need to be installed for the modern UI components to function properly:
+
+## UI Components & Primitives
+- @radix-ui/react-dialog
+- @radix-ui/react-navigation-menu
+- @radix-ui/react-separator
+- @radix-ui/react-icons
+- class-variance-authority
+- clsx
+- tailwind-merge
+
+## Animation & Effects
+- framer-motion
+
+## Icons
+- lucide-react
+
+## Installation Commands
+
+### Using npm:
+```
+npm install @radix-ui/react-dialog @radix-ui/react-navigation-menu @radix-ui/react-separator @radix-ui/react-icons class-variance-authority clsx tailwind-merge framer-motion lucide-react
+```
+
+### Using yarn:
+```
+yarn add @radix-ui/react-dialog @radix-ui/react-navigation-menu @radix-ui/react-separator @radix-ui/react-icons class-variance-authority clsx tailwind-merge framer-motion lucide-react
+```
+
+### Using pnpm:
+```
+pnpm add @radix-ui/react-dialog @radix-ui/react-navigation-menu @radix-ui/react-separator @radix-ui/react-icons class-variance-authority clsx tailwind-merge framer-motion lucide-react
+```
+
+Note: If encountering PowerShell issues with the single command, you can install packages individually:
+
+```
+npm install @radix-ui/react-dialog
+npm install @radix-ui/react-navigation-menu
+npm install @radix-ui/react-separator
+npm install @radix-ui/react-icons
+npm install class-variance-authority
+npm install clsx
+npm install tailwind-merge
+npm install framer-motion
+npm install lucide-react
+``` 

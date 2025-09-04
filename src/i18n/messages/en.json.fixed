@@ -1,0 +1,131 @@
+{
+  "common": {
+    "languageName": "English",
+    "switchLanguage": "Switch to French",
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "caseStudies": "Case Studies",
+      "subsidiaries": "Subsidiaries",
+      "contact": "Contact"
+    },
+    "footer": {
+      "copyright": "© 2023 Genius Ad District. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "buttons": {
+      "learnMore": "Learn More",
+      "viewAll": "View All",
+      "submit": "Submit",
+      "send": "Send",
+      "readMore": "Read More",
+      "downloadPDF": "Download PDF",
+      "getStarted": "Get Started",
+      "login": "Login",
+      "register": "Register",
+      "back": "Back",
+      "next": "Next",
+      "apply": "Apply",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "contact": {
+      "title": "Contact",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "subject": "Subject",
+        "phone": "Phone"
+      }
+    }
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "showcase": {
+      "title": "Accessible Media Components",
+      "description": "Explore our accessible media components that ensure content is perceivable and operable for all users, including those with disabilities.",
+      "imageAlt": "Brand logo for Genius Ad District with distinctive 'G' symbol",
+      "videoAlt": "Promotional video showcasing our creative process and projects",
+      "audioAlt": "Audio recording of our client testimonials and success stories",
+      "imageCaption": "Our brand identity represents our commitment to creative excellence",
+      "videoCaption": "Watch our creative process in action with full caption support",
+      "audioCaption": "Listen to what our clients say about working with us",
+      "tabs": {
+        "images": "Accessible Images",
+        "videos": "Accessible Videos",
+        "audio": "Accessible Audio"
+      }
+    },
+    "components": {
+      "transcript": "View Transcript",
+      "hideTranscript": "Hide Transcript",
+      "showTranscript": "Show Transcript",
+      "play": "Play",
+      "pause": "Pause",
+      "mute": "Mute",
+      "unmute": "Unmute",
+      "forward": "Forward 10 seconds",
+      "rewind": "Rewind 10 seconds",
+      "volume": "Volume",
+      "captions": "Captions",
+      "closedCaptions": "Closed Captions",
+      "audioDescription": "Audio Description"
+    },
+    "documentation": {
+      "title": "Accessibility Features",
+      "introduction": "Genius Ad District is committed to making our website accessible to all users. We have implemented the following accessibility features:",
+      "keyboard": {
+        "title": "Keyboard Navigation",
+        "description": "All interactive elements are keyboard accessible with visible focus states and logical tab order."
+      },
+      "screenReaders": {
+        "title": "Screen Reader Support",
+        "description": "Our site is optimized for screen readers with proper ARIA attributes, landmarks, and descriptive text."
+      },
+      "contrast": {
+        "title": "Color Contrast",
+        "description": "All text and interactive elements meet WCAG AA color contrast requirements for better readability."
+      },
+      "media": {
+        "title": "Accessible Media",
+        "description": "Videos include captions and audio descriptions, while images have descriptive alt text."
+      },
+      "responsive": {
+        "title": "Responsive Design",
+        "description": "Our site adapts to different screen sizes and supports text resizing up to 200% without loss of content."
+      }
+    }
+  },
+  "Tools": {
+    "ComponentGenerator": {
+      "title": "UI Component Generator",
+      "description": "Create beautiful UI components that adhere to Genius Ad District's design system",
+      "poweredBy": "Powered by",
+      "howItWorks": {
+        "title": "How It Works",
+        "description": "The UI Component Generator uses the MCP 21st-dev/magic server to create beautiful, consistent components that match your design system.",
+        "step1": {
+          "title": "Configure",
+          "description": "Select the component type and provide a descriptive name"
+        },
+        "step2": {
+          "title": "Generate",
+          "description": "Our AI generates a component based on your specifications"
+        },
+        "step3": {
+          "title": "Customize",
+          "description": "Copy the code and customize it to exactly meet your needs"
+        }
+      },
+      "learnMore": "Learn more about 21st-dev/magic"
+    },
+    "UIShowcase": {
+      "title": "UI Component Showcase",
+      "description": "Explore our library of Apple-inspired UI components",
+      "subtitle": "Discover our design system with sophisticated interactions"
+    }
+  }
+} 

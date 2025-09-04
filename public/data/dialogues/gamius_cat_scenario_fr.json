@@ -1,0 +1,233 @@
+{
+  "start": {
+    "id": "start",
+    "speaker": "Gamius",
+    "text": "Après une longue bataille pour avancer l'industrie du gaming... vous m'avez retrouvé dans ce temple ancien. C'est une coïncidence, mais c'est parfait pour vous raconter mon histoire.",
+    "choices": [{ "id": "choice1_continue", "text": "Je t'écoute...", "nextNodeId": "battle_revelation" }],
+    "animationCue": "intro_mysterious_beckon"
+  },
+  "battle_revelation": {
+    "id": "battle_revelation",
+    "speaker": "Gamius",
+    "text": "Tous les battaillants sont morts... Je suis l'héritier, le Chat Gamius qui vient de renaître. Venez voir, je suis revenu en force pour faire avancer les choses !",
+    "choices": [{ "id": "choice_rebirth", "text": "Tu es revenu ? Raconte-moi ça.", "nextNodeId": "rebirth_story" }],
+    "animationCue": "reaction_powerful_stance"
+  },
+  "rebirth_story": {
+    "id": "rebirth_story",
+    "speaker": "Gamius",
+    "text": "Je m'appelle Gamius, et j'ai constitué la meilleure équipe : GamiusGroup. Nous sommes ici pour révolutionner l'industrie du gaming au Maroc et au-delà. Mais d'abord, laissez-moi comprendre... quelle est votre vision de ce que je représente ?",
+    "choices": [
+      { "id": "choice_gardien", "text": "Un Gardien des secrets du gaming ?", "nextNodeId": "user_chose_gardien" },
+      { "id": "choice_createur", "text": "Un Créateur d'univers révolutionnaires ?", "nextNodeId": "user_chose_createur" },
+      { "id": "choice_guide", "text": "Un Guide vers l'avenir du gaming ?", "nextNodeId": "user_chose_guide" }
+    ],
+    "animationCue": "idle_curious_slight_bounce"
+  },
+  "user_chose_gardien": {
+    "id": "user_chose_gardien",
+    "speaker": "Gamius",
+    "text": "Un Gardien des secrets du gaming... Exactement ! Je protège l'héritage de ceux qui sont tombés au combat et je veille sur l'avenir de l'industrie. C'est une responsabilité que je porte avec fierté.",
+    "choices": [{ "id": "gardien_elaborate_choice", "text": "Comment protèges-tu cet héritage ?", "nextNodeId": "gardien_elaborate_1" }],
+    "animationCue": "reaction_thoughtful_nod"
+  },
+  "user_chose_createur": {
+    "id": "user_chose_createur",
+    "speaker": "Gamius",
+    "text": "Un Créateur d'univers révolutionnaires ! Oui ! De cette bataille est née une vision : créer des expériences qui transforment l'industrie et connectent les générations. C'est exactement ça !",
+    "choices": [{ "id": "createur_elaborate_choice", "text": "Quelle est cette vision révolutionnaire ?", "nextNodeId": "createur_elaborate_1" }],
+    "animationCue": "reaction_excited_bounce"
+  },
+  "user_chose_guide": {
+    "id": "user_chose_guide",
+    "speaker": "Gamius",
+    "text": "Un Guide vers l'avenir du gaming... Parfait ! Je suis ici pour mener cette industrie vers de nouveaux sommets, guidant les jeunes talents et les marques vers un futur brillant.",
+    "choices": [{ "id": "guide_elaborate_choice", "text": "Vers quels sommets nous mènes-tu ?", "nextNodeId": "guide_elaborate_1" }],
+    "animationCue": "reaction_wise_nod"
+  },
+  "gardien_elaborate_1": {
+    "id": "gardien_elaborate_1",
+    "speaker": "Gamius",
+    "text": "Je protège l'héritage en construisant quelque chose de plus grand. GamiusGroup n'est pas juste une équipe, c'est un écosystème complet dédié à l'excellence. Voulez-vous découvrir ce que nous avons bâti ensemble ?",
+    "choices": [{ "id": "gardien_to_gg_intro", "text": "Montrez-moi votre œuvre !", "nextNodeId": "gg_intro_start" }],
+    "animationCue": "idle_storytelling_stance"
+  },
+  "createur_elaborate_1": {
+    "id": "createur_elaborate_1",
+    "speaker": "Gamius",
+    "text": "Ma vision ? Créer un pont authentique entre les marques et les générations Y et Z. Pas seulement des jeux, mais des expériences qui marquent les âmes. GamiusGroup est la matérialisation de cette vision. Voulez-vous voir comment ?",
+    "choices": [{ "id": "createur_to_gg_intro", "text": "Oui, montrez-moi cette révolution !", "nextNodeId": "gg_intro_start" }],
+    "animationCue": "reaction_excited_gesture"
+  },
+  "guide_elaborate_1": {
+    "id": "guide_elaborate_1",
+    "speaker": "Gamius",
+    "text": "Je guide vers un écosystème où chaque talent trouve sa place, où chaque marque peut créer des liens authentiques avec sa communauté. GamiusGroup est cette vision incarnée. Prêt à explorer ce nouveau monde ?",
+    "choices": [{ "id": "guide_to_gg_intro", "text": "Guidez-moi dans cette exploration !", "nextNodeId": "gg_intro_start" }],
+    "animationCue": "idle_inviting_gesture"
+  },
+  "gg_intro_start": {
+    "id": "gg_intro_start",
+    "speaker": "Gamius",
+    "text": "Voici GamiusGroup : né de la bataille, forgé dans la détermination. Nous ne sommes pas juste une agence, nous sommes les architectes du futur du gaming au Maroc !",
+    "choices": [{ "id": "gg_intro_continue", "text": "Les architectes du futur ?", "nextNodeId": "gg_mission_overview" }],
+    "animationCue": "reaction_proud_presentation"
+  },
+  "gg_mission_overview": {
+    "id": "gg_mission_overview",
+    "speaker": "Gamius",
+    "text": "De cette bataille est né GamiusGroup : une force révolutionnaire qui redéfinit le gaming et l'eSport au Maroc ! Notre mission ? Forger des liens authentiques et puissants entre les marques et les générations Y et Z. Comme un pont entre les mondes !",
+    "choices": [
+      { "id": "gg_mission_continue", "text": "Un pont entre les mondes ?", "nextNodeId": "gg_bridge_explanation" },
+      { "id": "gg_mission_show_divisions", "text": "Montrez-moi vos forces !", "nextNodeId": "gg_divisions_intro" }
+    ],
+    "animationCue": "reaction_passionate_explanation"
+  },
+  "gg_bridge_explanation": {
+    "id": "gg_bridge_explanation",
+    "speaker": "Gamius",
+    "text": "Exactement ! Nous connectons les marques avec leur communauté de manière authentique. Pas de marketing traditionnel fade - nous créons des expériences immersives qui résonnent dans l'âme des gamers !",
+    "choices": [{ "id": "bridge_to_divisions", "text": "Comment y arrivez-vous ?", "nextNodeId": "gg_divisions_intro" }],
+    "animationCue": "reaction_excited_bounce"
+  },
+  "gg_divisions_intro": {
+    "id": "gg_divisions_intro",
+    "speaker": "Gamius",
+    "text": "Nos forces sont organisées en divisions spécialisées ! Chaque division est une arme forgée dans la bataille pour l'excellence. Quelle division vous intrigue le plus ?",
+    "choices": [
+      { "id": "division_code", "text": "Gamius Code - Les développeurs", "nextNodeId": "gg_division_code_detail" },
+      { "id": "division_studio", "text": "Gamius Studio - Les créatifs", "nextNodeId": "gg_division_studio_detail" },
+      { "id": "division_event", "text": "Gamius Event - Les organisateurs", "nextNodeId": "gg_division_event_detail" },
+      { "id": "division_esport", "text": "Gamius eSport - Les compétiteurs", "nextNodeId": "gg_division_esport_detail" }
+    ],
+    "animationCue": "idle_presenting_options",
+    "imageSrc": ""
+  },
+  "gg_division_code_detail": {
+    "id": "gg_division_code_detail",
+    "speaker": "Gamius",
+    "text": "Gamius Code - nos guerriers du développement ! Ils forgent des plateformes eSport robustes et innovantes. Chaque ligne de code est une arme contre la médiocrité !",
+    "choices": [
+      { "id": "code_back_to_divisions", "text": "Impressionnant ! Les autres divisions ?", "nextNodeId": "gg_divisions_intro" },
+      { "id": "code_visit_site", "text": "Visiter leur domaine", "nextNodeId": "visit_gamiusgroup_site" }
+    ],
+    "animationCue": "reaction_tech_focused",
+    "imageSrc": "/item_images/gamius_filiale_isometric/gamius_code_isometric.png"
+  },
+  "gg_division_studio_detail": {
+    "id": "gg_division_studio_detail",
+    "speaker": "Gamius",
+    "text": "Gamius Studio - les artistes de l'immersion ! Ils créent des expériences visuelles qui transportent les joueurs dans des univers extraordinaires. L'art au service de l'émotion !",
+    "choices": [
+      { "id": "studio_back_to_divisions", "text": "Magnifique ! Et les autres ?", "nextNodeId": "gg_divisions_intro" },
+      { "id": "studio_visit_site", "text": "Explorer leur monde", "nextNodeId": "visit_gamiusgroup_site" }
+    ],
+    "animationCue": "reaction_artistic_appreciation",
+    "imageSrc": "/item_images/gamius_filiale_isometric/gamius_studio_isometric.png"
+  },
+  "gg_division_event_detail": {
+    "id": "gg_division_event_detail",
+    "speaker": "Gamius",
+    "text": "Gamius Event - les maîtres de cérémonie ! Ils orchestrent des événements eSport légendaires, des petits tournois locaux aux grandes arènes nationales. Chaque événement est une épopée !",
+    "choices": [
+      { "id": "event_back_to_divisions", "text": "Épique ! Les autres divisions ?", "nextNodeId": "gg_divisions_intro" },
+      { "id": "event_visit_site", "text": "Rejoindre l'arène", "nextNodeId": "visit_gamiusgroup_site" }
+    ],
+    "animationCue": "reaction_event_excitement",
+    "imageSrc": "/item_images/gamius_filiale_isometric/gamius_event_isometric.png"
+  },
+  "gg_division_esport_detail": {
+    "id": "gg_division_esport_detail",
+    "speaker": "Gamius",
+    "text": "Gamius eSport - l'arène ultime ! Nos gladiateurs numériques et stratèges tactiques qui élèvent l'eSport marocain vers les sommets internationaux. La gloire par la compétition !",
+    "choices": [
+      { "id": "esport_back_to_divisions", "text": "Incroyable ! Retour aux divisions", "nextNodeId": "gg_divisions_intro" },
+      { "id": "esport_visit_site", "text": "Entrer dans l'arène", "nextNodeId": "visit_gamiusgroup_site" }
+    ],
+    "animationCue": "reaction_competitive_stance",
+    "imageSrc": "/item_images/gamius_filiale_isometric/gamius_esport_isometric.png"
+  },
+  "visit_gamiusgroup_site": {
+    "id": "visit_gamiusgroup_site",
+    "speaker": "Gamius",
+    "text": "Excellente idée ! Je vais t'ouvrir le site de Gamius Group dans un nouvel onglet. Tu vas découvrir tout leur univers créatif !",
+    "choices": [
+      { 
+        "id": "redirect_now", 
+        "text": "🌐 Ouvrir gamiusgroup.com", 
+        "nextNodeId": "redirect_action",
+        "action": "redirect",
+        "url": "https://gamiusgroup.com"
+      },
+      { "id": "maybe_later", "text": "Peut-être plus tard", "nextNodeId": "final_goodbye" }
+    ],
+    "animationCue": "reaction_excited_gesture"
+  },
+  "redirect_action": {
+    "id": "redirect_action",
+    "speaker": "System",
+    "text": "🚀 Redirection vers gamiusgroup.com en cours... Si la page ne s'ouvre pas automatiquement, vous pouvez cliquer sur le bouton dans l'en-tête !",
+    "choices": [
+      { "id": "redirect_done", "text": "Parfait, merci !", "nextNodeId": "final_goodbye" }
+    ],
+    "animationCue": "reaction_excited_bounce"
+  },
+  "gg_method_intro": {
+    "id": "gg_method_intro",
+    "speaker": "Gamius",
+    "text": "Leur méthode, c'est un mélange secret de 'Stratégie', 'Créativité', et 'Technologie'. Un vrai triptyque magique pour transformer les défis en succès. Tu veux que je détaille un de ces aspects ?",
+    "choices": [
+      { "id": "gg_method_strategy", "text": "Parle-moi de la Stratégie.", "nextNodeId": "gg_method_strategy_detail" },
+      { "id": "gg_method_creativity", "text": "Et la Créativité ?", "nextNodeId": "gg_method_creativity_detail" },
+      { "id": "gg_method_technology", "text": "La Technologie m'intrigue !", "nextNodeId": "gg_method_technology_detail" },
+      { "id": "gg_method_to_end", "text": "Non, c'est bon pour l'instant.", "nextNodeId": "end_thank_you" }
+    ],
+    "animationCue": "idle_processing_subtle"
+  },
+  "gg_method_strategy_detail": {
+    "id": "gg_method_strategy_detail",
+    "speaker": "Gamius",
+    "text": "Stratégie : C'est la boussole ! Analyse du marché, définition des objectifs, ciblage précis... Tout est pensé pour que chaque action mène au trésor.",
+    "choices": [{ "id": "gg_strategy_next", "text": "Suivant !", "nextNodeId": "gg_method_creativity_detail" }],
+    "animationCue": "reaction_thoughtful_nod"
+  },
+  "gg_method_creativity_detail": {
+    "id": "gg_method_creativity_detail",
+    "speaker": "Gamius",
+    "text": "Créativité : C'est la potion magique ! Des idées qui sortent de l'ordinaire, des concepts qui marquent les esprits... L'art de surprendre et d'engager.",
+    "choices": [{ "id": "gg_creativity_next", "text": "Et après ?", "nextNodeId": "gg_method_technology_detail" }],
+    "animationCue": "reaction_surprised_perk"
+  },
+  "gg_method_technology_detail": {
+    "id": "gg_method_technology_detail",
+    "speaker": "Gamius",
+    "text": "Technologie : Ce sont les outils enchantés ! Plateformes robustes, expériences interactives, data analysis... Le pouvoir du numérique au service de la vision.",
+    "choices": [{ "id": "gg_technology_next", "text": "J'ai compris.", "nextNodeId": "end_thank_you" }],
+    "animationCue": "reaction_calm_knowing"
+  },
+  "end_temp": {
+    "id": "end_temp",
+    "speaker": "Gamius",
+    "text": "D'accord, comme tu veux ! N'hésite pas si tu changes d'avis. Je suis toujours là pour papoter de Gamius Group ou d'autres mystères de l'univers !",
+    "isEnding": true,
+    "animationCue": "idle_curious"
+  },
+  "end_thank_you": {
+    "id": "end_thank_you",
+    "speaker": "Gamius",
+    "text": "Merci de m'avoir écouté ! J'espère que cette petite présentation de Gamius Group t'a plu. C'est grâce à eux que je suis là, après tout ! À bientôt pour de nouvelles aventures ?",
+    "choices": [
+      { "id": "visit_site", "text": "Visiter le site de Gamius Group", "nextNodeId": "visit_gamiusgroup_site" },
+      { "id": "restart_dialogue", "text": "Recommencer le dialogue", "nextNodeId": "start" },
+      { "id": "end_here", "text": "C'était parfait, merci !", "nextNodeId": "final_goodbye" }
+    ],
+    "animationCue": "reaction_happy_purr"
+  },
+  "final_goodbye": {
+    "id": "final_goodbye",
+    "speaker": "Gamius",
+    "text": "Ça a été un plaisir de discuter avec toi ! N'hésite pas à revenir quand tu veux. Miaou ! 🐱",
+    "isEnding": true,
+    "animationCue": "reaction_happy_purr"
+  }
+}

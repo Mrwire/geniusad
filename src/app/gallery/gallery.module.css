@@ -1,0 +1,380 @@
+/* Gallery module styles - component-specific styles */
+
+/* Remove font imports and global styles as they're now in globals.css */
+
+.coordinates-section {
+  grid-column: 1 / span 3;
+  font-family: "TheGoodMonolith", monospace;
+}
+
+/* Key hint styling */
+.key-hint {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  border: 1px solid var(--color-text);
+  border-radius: 3px;
+  font-size: 12px;
+  margin: 0 3px;
+  min-width: 20px;
+  height: 20px;
+}
+
+/* Footer text styling */
+.footer p {
+  font-family: "TheGoodMonolith", monospace;
+}
+
+/* Header and Footer */
+.header,
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  padding: 1.5rem;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  top: 0;
+}
+
+.footer {
+  bottom: 0;
+}
+
+/* Title in header */
+.title h2 {
+  font-family: "PP Neue Montreal", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+/* Footer text styling */
+.coordinates-section p {
+  font-family: "TheGoodMonolith", monospace;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+
+/* Grid column assignments */
+.nav-section {
+  grid-column: 1 / span 3;
+}
+
+.values-section {
+  grid-column: 5 / span 2;
+}
+
+.location-section {
+  grid-column: 7 / span 2;
+}
+
+.contact-section {
+  grid-column: 9 / span 2;
+}
+
+.social-section {
+  grid-column: 11 / span 2;
+  text-align: right;
+}
+
+/* Bottom bar */
+.coordinates-section {
+  grid-column: 1 / span 3;
+}
+
+.links-section {
+  grid-column: 5 / span 4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-base);
+}
+
+.info-section {
+  grid-column: 9 / span 4;
+  text-align: right;
+}
+
+/* ===== LOGO COMPONENT ===== */
+.logo-container {
+  margin-bottom: var(--spacing-md);
+  display: block;
+  width: 3rem;
+  height: 1.5rem;
+  position: relative;
+}
+
+.logo-circles {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  transition: transform var(--transition-medium);
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: var(--color-text);
+  top: 50%;
+}
+
+.circle-1 {
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.circle-2 {
+  left: 0.8rem;
+  transform: translate(0, -50%);
+  mix-blend-mode: exclusion;
+}
+
+.logo-container:hover .circle-1 {
+  transform: translate(-0.5rem, -50%);
+}
+
+.logo-container:hover .circle-2 {
+  transform: translate(0.5rem, -50%);
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.canvas {
+  position: absolute;
+  will-change: transform;
+}
+
+/* Project title needs to be above everything */
+.project-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  pointer-events: none;
+  z-index: 10002;
+}
+
+.project-title p {
+  position: relative;
+  height: 42px;
+  color: #ffffff;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 9999;
+}
+
+.overlay.active {
+  pointer-events: auto;
+}
+
+/* Page vignette effect */
+.page-vignette-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+.page-vignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 var(--page-vignette-size, 0px)
+    var(--page-vignette-color, rgba(0, 0, 0, 0.9));
+}
+
+.page-vignette-strong {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 var(--page-vignette-strong-size, 0px)
+    var(--page-vignette-strong-color, rgba(0, 0, 0, 0.95));
+}
+
+.page-vignette-extreme {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 var(--page-vignette-extreme-size, 0px)
+    var(--page-vignette-extreme-color, rgba(0, 0, 0, 1));
+}
+
+/* Gallery item styles */
+.item {
+  position: absolute;
+  overflow: hidden;
+  background-color: #000000;
+  cursor: pointer;
+  border-radius: var(--border-radius, 0px);
+}
+
+.item-image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.item-image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 var(--vignette-size, 0px) rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+
+.item:hover img {
+  transform: scale(var(--hover-scale, 1.05));
+}
+
+.item-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 2;
+}
+
+.item-name {
+  font-family: "PP Neue Montreal", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  margin-bottom: 2px;
+  position: relative;
+  overflow: hidden;
+  height: 16px;
+}
+
+.item-name .word {
+  position: relative;
+  display: inline-block;
+  will-change: transform;
+}
+
+.item-number {
+  font-family: "TheGoodMonolith", monospace;
+  color: #888888;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+  overflow: hidden;
+  height: 14px;
+}
+
+.item-number .char {
+  position: relative;
+  display: inline-block;
+  will-change: transform;
+}
+
+/* Expanded item should be above overlay but below titles and captions */
+.expanded-item {
+  position: fixed;
+  z-index: 10000;
+  /* Lower than project-title and caption-clone */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: var(--border-radius, 0px);
+}
+
+.expanded-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Caption clone needs to be above expanded item */
+.caption-clone {
+  position: fixed;
+  z-index: 10002;
+  /* Same as project-title to be above expanded-item */
+}
+
+/* Clone styles for animation */
+.caption-clone {
+  position: fixed;
+  z-index: 10001;
+}
+
+.caption-clone .item-name,
+.caption-clone .item-number {
+  overflow: hidden;
+}
+
+/* Tweakpane styles */
+.tp-dfwv {
+  z-index: 10000 !important;
+}
+
+/* Make sure the Tweakpane tab is visible when collapsed */
+.tp-rotv {
+  opacity: 0.5 !important;
+}
+
+.tp-rotv.tp-rotv-expanded {
+  opacity: 1 !important;
+}
+
+.tp-rotv.tp-rotv-collapsed {
+  opacity: 0.7 !important;
+} 
