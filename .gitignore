@@ -43,3 +43,7 @@ next-env.d.ts
 # ignore old modules cache
 node_modules_old/
 
+
+# remove heavy original video
+public/videos/video-bg-ourstory.mp4
+
