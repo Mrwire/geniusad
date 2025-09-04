@@ -63,6 +63,11 @@ export function AppleStoryHero() {
     return () => clearInterval(interval);
   }, []);
 
+  const cdnMp4 = process.env.NEXT_PUBLIC_STORY_VIDEO_MP4;
+  const cdnWebm = process.env.NEXT_PUBLIC_STORY_VIDEO_WEBM;
+  const localMp4 = cdnMp4 || '/videos/video-bg-ourstory-720.mp4';
+  const localWebm = cdnWebm || '/videos/video-bg-ourstory-720.webm';
+
   return (
     <div ref={heroRef} className="relative h-[100svh] w-full overflow-hidden bg-black">
       {/* Video background */}
@@ -77,8 +82,8 @@ export function AppleStoryHero() {
           className="absolute h-full w-full object-cover scale-110"
           style={{ transform: `scale(${scale + 0.1}) translateY(${scrollY * 0.15}px)` }}
         >
-          <source src="/videos/video-bg-ourstory.mp4" type="video/mp4" />
-          <source src="/videos/video-bg-ourstory.webm" type="video/webm" />
+          <source src={localWebm} type="video/webm" />
+          <source src={localMp4} type="video/mp4" />
           {content.videoAlt}
         </video>
         {/* Overlay sombre */}
