@@ -14,7 +14,7 @@ const GALLERY_PROJECTS = [
     title: { fr: 'Coca Cola Events', en: 'Coca Cola Events' },
     category: { fr: 'Événementiel', en: 'Events' },
     description: {
-      fr: 'Conception et réalisation d'une expérience immersive pour Coca Cola lors d'un événement majeur à Casablanca.',
+      fr: "Conception et réalisation d'une expérience immersive pour Coca Cola lors d'un événement majeur à Casablanca.",
       en: 'Design and implementation of an immersive experience for Coca Cola during a major event in Casablanca.'
     },
     client: 'Coca Cola',
@@ -33,7 +33,7 @@ const GALLERY_PROJECTS = [
     title: { fr: 'Sprite Campaign', en: 'Sprite Campaign' },
     category: { fr: 'Activation de marque', en: 'Brand Activation' },
     description: {
-      fr: 'Campagne d'activation de marque pour Sprite avec des installations interactives dans les espaces publics.',
+      fr: "Campagne d'activation de marque pour Sprite avec des installations interactives dans les espaces publics.",
       en: 'Brand activation campaign for Sprite with interactive installations in public spaces.'
     },
     client: 'Sprite',
@@ -51,7 +51,7 @@ const GALLERY_PROJECTS = [
     title: { fr: 'Kia Motors', en: 'Kia Motors' },
     category: { fr: 'Showroom', en: 'Showroom' },
     description: {
-      fr: 'Conception et installation d'un showroom temporaire pour le lancement du nouveau modèle Kia.',
+      fr: "Conception et installation d'un showroom temporaire pour le lancement du nouveau modèle Kia.",
       en: 'Design and installation of a temporary showroom for the launch of the new Kia model.'
     },
     client: 'Kia',
@@ -105,7 +105,7 @@ const GALLERY_PROJECTS = [
     title: { fr: 'Inwi Gaming', en: 'Inwi Gaming' },
     category: { fr: 'E-Sport', en: 'E-Sport' },
     description: {
-      fr: 'Organisation d'un événement gaming majeur pour Inwi, avec des tournois e-sport et des activations de marque.',
+        fr: "Organisation d'un événement gaming majeur pour Inwi, avec des tournois e-sport et des activations de marque.",
       en: 'Organization of a major gaming event for Inwi, with e-sport tournaments and brand activations.'
     },
     client: 'Inwi',
